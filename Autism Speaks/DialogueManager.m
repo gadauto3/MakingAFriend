@@ -12,7 +12,7 @@
 
 @property (nonatomic, strong) NSMutableDictionary *allDialogue;
 @property (nonatomic, strong) NSMutableDictionary *dialogueOptions;
-
+@property (nonatomic, strong) NSMutableDictionary *contextToDialogueDictionary;
 
 @end
 
@@ -27,58 +27,7 @@
 }
 
 - (NSArray *)allDialogueForBoy
-{
-	self.allDialogue = [NSMutableDictionary dictionary];
-    [self.allDialogue setValue:@{
-         KEY_NUM_FRIENDSHIP_POINTS: @5,
-                   KEY_HER_THOUGHT: @"Hmmm, interesting....",
-                     KEY_HER_SOUND: @"Hmmm, interesting....",
-                      KEY_HER_FACE: @"disgust.png",
-                      KEY_HER_CHAT: @"Hmmm, interesting...." }
-                            forKey:@ "0"];
-    [self.allDialogue setValue:@{
-         KEY_NUM_FRIENDSHIP_POINTS: @5,
-                   KEY_HER_THOUGHT: @"Hmmm, interesting....1",
-                     KEY_HER_SOUND: @"Hmmm, interesting....1",
-                      KEY_HER_FACE: @"neutral.jpg",
-                      KEY_HER_CHAT: @"Hmmm, interesting....1" }
-                            forKey:@ "1"];
-    [self.allDialogue setValue:@{
-         KEY_NUM_FRIENDSHIP_POINTS: @5,
-                   KEY_HER_THOUGHT: @"Hmmm, interesting....2",
-                     KEY_HER_SOUND: @"Hmmm, interesting....2",
-                      KEY_HER_FACE: @"test-oval.jpg",
-                      KEY_HER_CHAT: @"Hmmm, interesting....2" }
-                            forKey:@ "2"];
-    [self.allDialogue setValue:@{
-         KEY_NUM_FRIENDSHIP_POINTS: @5,
-                   KEY_HER_THOUGHT: @"Hmmm, interesting....3",
-                     KEY_HER_SOUND: @"Hmmm, interesting....3",
-                      KEY_HER_FACE: @"bored.png",
-                      KEY_HER_CHAT: @"Hmmm, interesting....3" }
-                            forKey:@ "3"];
-    [self.allDialogue setValue:@{
-         KEY_NUM_FRIENDSHIP_POINTS: @5,
-                   KEY_HER_THOUGHT: @"Hmmm, interesting....4",
-                     KEY_HER_SOUND: @"Hmmm, interesting....4",
-                      KEY_HER_FACE: @"interested.png",
-                      KEY_HER_CHAT: @"Hmmm, interesting....4" }
-                            forKey:@ "4"];
-    [self.allDialogue setValue:@{
-         KEY_NUM_FRIENDSHIP_POINTS: @5,
-                   KEY_HER_THOUGHT: @"Hmmm, interesting....5",
-                     KEY_HER_SOUND: @"Hmmm, interesting....5",
-                      KEY_HER_FACE: @"surprise.png",
-                      KEY_HER_CHAT: @"Hmmm, interesting....5" }
-                            forKey:@ "5"];
-    [self.allDialogue setValue:@{
-         KEY_NUM_FRIENDSHIP_POINTS: @5,
-                   KEY_HER_THOUGHT: @"Hmmm, interesting....6",
-                     KEY_HER_SOUND: @"Hmmm, interesting....6",
-                      KEY_HER_FACE: @"smile.png",
-                      KEY_HER_CHAT: @"Hmmm, interesting....6" }
-                            forKey:@ "6"];
-    
+{    
     return self.allDialogue.allKeys;
 }
 
@@ -122,6 +71,76 @@
 - (NSArray *)selectedDialogueByBoy
 {
 	return nil;
+}
+
+- (void)setupDialogue
+{
+	
+	self.allDialogue = [NSMutableDictionary dictionary];
+    [self.allDialogue setValue:@{
+	 KEY_NUM_FRIENDSHIP_POINTS: @5,
+			   KEY_HER_THOUGHT: @"Hmmm, interesting....",
+				 KEY_HER_SOUND: @"OhYeah",
+				  KEY_HER_FACE: @"disgust.png",
+				  KEY_HER_CHAT: @"Hmmm, interesting...." }
+						forKey:@ "0"];
+    [self.allDialogue setValue:@{
+	 KEY_NUM_FRIENDSHIP_POINTS: @5,
+				 KEY_HER_SOUND: @"Hmmm, interesting....1",
+				  KEY_HER_FACE: @"neutral.jpg",
+				  KEY_HER_CHAT: @"Hmmm, interesting....1" }
+						forKey:@ "1"];
+    [self.allDialogue setValue:@{
+	 KEY_NUM_FRIENDSHIP_POINTS: @5,
+			   KEY_HER_THOUGHT: @"Hmmm, interesting....2",
+				 KEY_HER_SOUND: @"Hmmm, interesting....2",
+				  KEY_HER_FACE: @"test-oval.jpg",
+				  KEY_HER_CHAT: @"Hmmm, interesting....2" }
+						forKey:@ "2"];
+    [self.allDialogue setValue:@{
+	 KEY_NUM_FRIENDSHIP_POINTS: @5,
+				 KEY_HER_SOUND: @"Hmmm, interesting....3",
+				  KEY_HER_FACE: @"bored.png",
+				  KEY_HER_CHAT: @"Hmmm, interesting....3" }
+						forKey:@ "3"];
+    [self.allDialogue setValue:@{
+	 KEY_NUM_FRIENDSHIP_POINTS: @5,
+			   KEY_HER_THOUGHT: @"Hmmm, interesting....4",
+				 KEY_HER_SOUND: @"Hmmm, interesting....4",
+				  KEY_HER_FACE: @"interested.png",
+				  KEY_HER_CHAT: @"Hmmm, interesting....4" }
+						forKey:@ "4"];
+    [self.allDialogue setValue:@{
+	 KEY_NUM_FRIENDSHIP_POINTS: @5,
+			   KEY_HER_THOUGHT: @"Hmmm, interesting....5",
+				 KEY_HER_SOUND: @"Hmmm, interesting....5",
+				  KEY_HER_FACE: @"surprise.png",
+				  KEY_HER_CHAT: @"Hmmm, interesting....5" }
+						forKey:@ "5"];
+    [self.allDialogue setValue:@{
+	 KEY_NUM_FRIENDSHIP_POINTS: @5,
+			   KEY_HER_THOUGHT: @"Hmmm, interesting....6",
+				 KEY_HER_SOUND: @"Hmmm, interesting....6",
+				  KEY_HER_FACE: @"smile.png",
+				  KEY_HER_CHAT: @"Hmmm, interesting....6" }
+						forKey:@ "6"];
+}
+
+- (void)setupContextDictionary
+{
+	self.contextToDialogueDictionary = [NSMutableDictionary dictionary];
+	
+	[self.contextToDialogueDictionary setValue:@[] forKey:@""];
+}
+
+- (id)init
+{
+    self = [super init];
+    if (self) {
+        [self setupDialogue];
+        [self setupContextDictionary];
+    }
+    return self;
 }
 
 
