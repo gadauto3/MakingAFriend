@@ -9,8 +9,11 @@
 #import <Foundation/Foundation.h>
 
 #define KEY_NUM_FRIENDSHIP_POINTS		@"friendship points"
-#define KEY_NUM_HER_THOUGHT				@"her thoughts"
-
+#define KEY_HER_THOUGHT				@"her thoughts"
+#define KEY_HER_SOUND                @"Sound she makes"
+#define KEY_HER_FACE                @"Face"
+//disgust.png	neutral.jpg	test-oval.jpg bored.png	interested.png	surprise.png smile.png
+#define KEY_HER_CHAT                @"Her Chat bubble"
 @interface DialogueManager : NSObject
 
 - (NSArray *)allDialogueForBoy;
