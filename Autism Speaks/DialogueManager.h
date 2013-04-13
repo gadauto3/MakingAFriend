@@ -8,10 +8,15 @@
 
 #import <Foundation/Foundation.h>
 
+#define KEY_NUM_FRIENDSHIP_POINTS		@"friendship points"
+#define KEY_NUM_HER_THOUGHT				@"her thoughts"
+
 @interface DialogueManager : NSObject
 
 - (NSArray *)allDialogueForBoy;
 - (NSArray *)randomOptionsForBoy:(int)numToGet;
 - (NSArray *)selectedDialogueByBoy;
+
+- (NSDictionary *)resultsForHisChat:(NSString *)hisChat;
 
 @end
