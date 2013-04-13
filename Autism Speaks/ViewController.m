@@ -24,12 +24,15 @@
 	}];
 }
 
+
 #pragma mark - Lifecycle
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+	
+	[self performSelector:@selector(jumpToGame:) withObject:nil afterDelay:0.3];
 }
 
 - (void)didReceiveMemoryWarning

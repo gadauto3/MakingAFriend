@@ -6,8 +6,6 @@
 //  Copyright (c) 2013 Motion Math. All rights reserved.
 //
 
-#import "ViewController.h"
-
-@interface HomeVC : ViewController
+@interface HomeVC : UIViewController
 
 @end

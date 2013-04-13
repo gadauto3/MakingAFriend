@@ -6,8 +6,6 @@
 //  Copyright (c) 2013 Motion Math. All rights reserved.
 //
 
-#import "ViewController.h"
-
-@interface CafeVC : ViewController
+@interface CafeVC : UIViewController
 
 @end

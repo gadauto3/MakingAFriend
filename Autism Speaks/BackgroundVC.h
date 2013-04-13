@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 
-@interface BackgroundVC : ViewController <UIScrollViewDelegate>
+@interface BackgroundVC : UIViewController <UIScrollViewDelegate>
 
 @property (nonatomic, weak) IBOutlet UIScrollView *scrollView;
 
