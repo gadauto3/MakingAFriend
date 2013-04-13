@@ -18,6 +18,14 @@
 		EEC3F3B21719416D00457687 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EEC3F3B11719416D00457687 /* Default-568h@2x.png */; };
 		EEC3F3B51719416D00457687 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC3F3B41719416D00457687 /* ViewController.m */; };
 		EEC3F3B81719416D00457687 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEC3F3B61719416D00457687 /* ViewController.xib */; };
+		EEC3F3C11719434F00457687 /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC3F3BF1719434F00457687 /* HomeVC.m */; };
+		EEC3F3C21719434F00457687 /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEC3F3C01719434F00457687 /* HomeVC.xib */; };
+		EEC3F3C51719473200457687 /* home.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EEC3F3C41719473200457687 /* home.jpg */; };
+		EEC3F3C71719474200457687 /* cafe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EEC3F3C61719474200457687 /* cafe.jpg */; };
+		EEC3F3CB1719476900457687 /* CafeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC3F3C91719476900457687 /* CafeVC.m */; };
+		EEC3F3CC1719476900457687 /* CafeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEC3F3CA1719476900457687 /* CafeVC.xib */; };
+		EEC3F3D01719482900457687 /* BackgroundVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC3F3CE1719482900457687 /* BackgroundVC.m */; };
+		EEC3F3D11719482900457687 /* BackgroundVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEC3F3CF1719482900457687 /* BackgroundVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +45,17 @@
 		EEC3F3B31719416D00457687 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		EEC3F3B41719416D00457687 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EEC3F3B71719416D00457687 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		EEC3F3BE1719434F00457687 /* HomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
+		EEC3F3BF1719434F00457687 /* HomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
+		EEC3F3C01719434F00457687 /* HomeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
+		EEC3F3C41719473200457687 /* home.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = home.jpg; sourceTree = "<group>"; };
+		EEC3F3C61719474200457687 /* cafe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cafe.jpg; sourceTree = "<group>"; };
+		EEC3F3C81719476900457687 /* CafeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CafeVC.h; sourceTree = "<group>"; };
+		EEC3F3C91719476900457687 /* CafeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CafeVC.m; sourceTree = "<group>"; };
+		EEC3F3CA1719476900457687 /* CafeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CafeVC.xib; sourceTree = "<group>"; };
+		EEC3F3CD1719482900457687 /* BackgroundVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundVC.h; sourceTree = "<group>"; };
+		EEC3F3CE1719482900457687 /* BackgroundVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundVC.m; sourceTree = "<group>"; };
+		EEC3F3CF1719482900457687 /* BackgroundVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BackgroundVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +107,15 @@
 				EEC3F3B31719416D00457687 /* ViewController.h */,
 				EEC3F3B41719416D00457687 /* ViewController.m */,
 				EEC3F3B61719416D00457687 /* ViewController.xib */,
+				EEC3F3BE1719434F00457687 /* HomeVC.h */,
+				EEC3F3BF1719434F00457687 /* HomeVC.m */,
+				EEC3F3C01719434F00457687 /* HomeVC.xib */,
+				EEC3F3C81719476900457687 /* CafeVC.h */,
+				EEC3F3C91719476900457687 /* CafeVC.m */,
+				EEC3F3CA1719476900457687 /* CafeVC.xib */,
+				EEC3F3CD1719482900457687 /* BackgroundVC.h */,
+				EEC3F3CE1719482900457687 /* BackgroundVC.m */,
+				EEC3F3CF1719482900457687 /* BackgroundVC.xib */,
 				EEC3F3A21719416D00457687 /* Supporting Files */,
 			);
 			path = "Autism Speaks";
@@ -96,6 +124,7 @@
 		EEC3F3A21719416D00457687 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EEC3F3C3171946C300457687 /* images */,
 				EEC3F3A31719416D00457687 /* Autism Speaks-Info.plist */,
 				EEC3F3A41719416D00457687 /* InfoPlist.strings */,
 				EEC3F3A71719416D00457687 /* main.m */,
@@ -105,6 +134,15 @@
 				EEC3F3B11719416D00457687 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EEC3F3C3171946C300457687 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				EEC3F3C41719473200457687 /* home.jpg */,
+				EEC3F3C61719474200457687 /* cafe.jpg */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +201,11 @@
 				EEC3F3B01719416D00457687 /* Default@2x.png in Resources */,
 				EEC3F3B21719416D00457687 /* Default-568h@2x.png in Resources */,
 				EEC3F3B81719416D00457687 /* ViewController.xib in Resources */,
+				EEC3F3C21719434F00457687 /* HomeVC.xib in Resources */,
+				EEC3F3C51719473200457687 /* home.jpg in Resources */,
+				EEC3F3C71719474200457687 /* cafe.jpg in Resources */,
+				EEC3F3CC1719476900457687 /* CafeVC.xib in Resources */,
+				EEC3F3D11719482900457687 /* BackgroundVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +219,9 @@
 				EEC3F3A81719416D00457687 /* main.m in Sources */,
 				EEC3F3AC1719416D00457687 /* AppDelegate.m in Sources */,
 				EEC3F3B51719416D00457687 /* ViewController.m in Sources */,
+				EEC3F3C11719434F00457687 /* HomeVC.m in Sources */,
+				EEC3F3CB1719476900457687 /* CafeVC.m in Sources */,
+				EEC3F3D01719482900457687 /* BackgroundVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

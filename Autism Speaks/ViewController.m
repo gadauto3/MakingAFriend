@@ -8,11 +8,23 @@
 
 #import "ViewController.h"
 
+#import "BackgroundVC.h"
+
 @interface ViewController ()
 
 @end
 
 @implementation ViewController
+
+- (IBAction)jumpToGame:(id)sender
+{
+	BackgroundVC *gameVC = [[BackgroundVC alloc] init];
+	[self presentViewController:gameVC animated:YES completion:^{
+		
+	}];
+}
+
+#pragma mark - Lifecycle
 
 - (void)viewDidLoad
 {
