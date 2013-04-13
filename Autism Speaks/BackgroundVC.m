@@ -20,6 +20,20 @@
 
 @implementation BackgroundVC
 
+
+#pragma mark - Poking out the cafe view
+
+- (void)pokeOutCafeView
+{
+	[self.scrollView setContentOffset:CGPointMake(30, 0) animated:YES];
+	[self performSelector:@selector(pokeBackCafeView) withObject:nil afterDelay:0.4];
+}
+
+- (void)pokeBackCafeView
+{
+	[self.scrollView setContentOffset:CGPointMake(0, 0) animated:YES];
+}
+
 #pragma mark - Lifecycle
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -45,6 +59,8 @@
 	[self.scrollView addSubview:self.cafeVC.view];
 	
 	self.scrollView.contentSize = CGSizeMake(self.homeVC.view.frame.size.width + self.cafeVC.view.frame.size.width, MAX(self.homeVC.view.frame.size.height, self.cafeVC.view.frame.size.height));
+	
+	[self performSelector:@selector(pokeOutCafeView) withObject:nil afterDelay:3];
 }
 
 - (void)didReceiveMemoryWarning
