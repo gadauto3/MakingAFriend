@@ -35,7 +35,7 @@
 				<reference key="NSNextResponder"/>
 				<int key="NSvFlags">274</int>
 				<array class="NSMutableArray" key="NSSubviews">
-					<object class="IBUIImageView" id="759249031">
+					<object class="IBUIImageView" id="882790011">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">274</int>
 						<string key="NSFrameSize">{320, 480}</string>
@@ -52,7 +52,7 @@
 				</array>
 				<string key="NSFrameSize">{320, 548}</string>
 				<reference key="NSSuperview"/>
-				<reference key="NSNextKeyView" ref="759249031"/>
+				<reference key="NSNextKeyView" ref="882790011"/>
 				<object class="NSColor" key="IBUIBackgroundColor">
 					<int key="NSColorSpace">3</int>
 					<bytes key="NSWhite">MCAwAA</bytes>
@@ -78,7 +78,7 @@
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">faceImageView</string>
 						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="759249031"/>
+						<reference key="destination" ref="882790011"/>
 					</object>
 					<int key="connectionID">9</int>
 				</object>
@@ -95,7 +95,7 @@
 						<int key="objectID">1</int>
 						<reference key="object" ref="191373211"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="759249031"/>
+							<reference ref="882790011"/>
 						</array>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -112,7 +112,7 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">4</int>
-						<reference key="object" ref="759249031"/>
+						<reference key="object" ref="882790011"/>
 						<array class="NSMutableArray" key="children"/>
 						<reference key="parent" ref="191373211"/>
 					</object>
@@ -139,7 +139,7 @@
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
 		<object class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
 			<string key="NS.key.0">disgust.png</string>
-			<string key="NS.object.0">{400, 600}</string>
+			<string key="NS.object.0">{16, 16}</string>
 		</object>
 		<string key="IBCocoaTouchPluginVersion">2083</string>
 	</data>
