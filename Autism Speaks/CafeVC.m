@@ -8,11 +8,31 @@
 
 #import "CafeVC.h"
 
+#import "CharacterVC.h"
+
 @interface CafeVC ()
+
+@property (nonatomic, strong) CharacterVC *boy;
+@property (nonatomic, strong) CharacterVC *girl;
 
 @end
 
 @implementation CafeVC
+
+
+- (void)setupCharacters
+{
+	self.boy = [[CharacterVC alloc] init];
+	self.girl = [[CharacterVC alloc] init];
+	
+	[self.boyBackground addSubview:self.boy.view];
+	self.boy.view.frame = CGRectMake(0, 0, self.boyBackground.frame.size.width, self.boyBackground.frame.size.height);
+	[self.girlBackground addSubview:self.girl.view];
+	self.girl.view.frame = CGRectMake(0, 0, self.girlBackground.frame.size.width, self.girlBackground.frame.size.height);
+}
+
+
+#pragma mark - Lifecycle
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -27,6 +47,8 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+	
+	[self setupCharacters];
 }
 
 - (void)didReceiveMemoryWarning

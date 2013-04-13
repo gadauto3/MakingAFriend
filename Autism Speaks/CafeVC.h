@@ -8,4 +8,7 @@
 
 @interface CafeVC : UIViewController
 
+@property (nonatomic, weak) IBOutlet UIImageView *boyBackground;
+@property (nonatomic, weak) IBOutlet UIImageView *girlBackground;
+
 @end
