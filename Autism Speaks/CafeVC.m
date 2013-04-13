@@ -30,6 +30,8 @@
 
 @implementation CafeVC
 
+#define TIME_FOR_POINTS		1.4
+
 
 - (void)setupCharacters
 {
@@ -70,7 +72,7 @@
 	
 	NSString *herThought = [chatResult objectForKey:KEY_HER_THOUGHT];
 	if (herThought) {
-		[self showHerThought:herThought];
+		[self performSelector:@selector(showHerThought:) withObject:herThought afterDelay:TIME_FOR_POINTS];
 	}
 	
 	NSString *herSound = [chatResult objectForKey:KEY_HER_SOUND];
@@ -87,7 +89,7 @@
 	
 	self.pointsLabel.text = [NSString stringWithFormat:@"+%d", numPoints];
 	
-	[UIView animateWithDuration:1.5 animations:^{
+	[UIView animateWithDuration:TIME_FOR_POINTS animations:^{
 		self.pointsView.transform = CGAffineTransformMakeTranslation(0, -200);
 		self.pointsView.alpha = 0.0;
 	} completion:^(BOOL finished) {
