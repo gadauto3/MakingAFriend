@@ -19,7 +19,7 @@
 
 #pragma mark -
 
-+ (ArrayTableViewPopoverVC *)makePopoverWithArray:(NSArray *)array fromView:(UIView *)view
++ (ArrayTableViewPopoverVC *)makePopoverWithArray:(NSArray *)array fromView:(UIView *)view permittedArrowDirections:(UIPopoverArrowDirection)permittedArrowDirection
 {
 	ArrayTableViewPopoverVC *arrayVC = [[ArrayTableViewPopoverVC alloc] init];
 	[arrayVC setArray:array];
@@ -28,7 +28,7 @@
     
     [arrayPopover presentPopoverFromRect:view.frame
 										 inView:view.superview
-					   permittedArrowDirections:UIPopoverArrowDirectionAny
+					   permittedArrowDirections:permittedArrowDirection
 									   animated:YES];
 	arrayVC.privatePopover = arrayPopover;
 	return arrayVC;

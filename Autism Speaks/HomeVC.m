@@ -39,7 +39,7 @@
 - (void)showPictureOptions
 {
 	NSArray *faces = @[@"fright-clean.png", @"fright-dirty.png", @"normal-clean.png", @"normal-dirty.png", @"sad-dirty.png", @"sad.png", @"smile.png"];
-	self.dialogue = [ArrayTableViewPopoverVC makePopoverWithArray:faces fromView:self.boyBackground];
+	self.dialogue = [ArrayTableViewPopoverVC makePopoverWithArray:faces fromView:self.boyBackground permittedArrowDirections:UIPopoverArrowDirectionAny];
 	self.dialogue.listener = self;
 }
 

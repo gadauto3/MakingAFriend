@@ -18,7 +18,7 @@
 
 @property (nonatomic, strong) id<ArrayTableViewPopoverListener> listener;
 
-+ (ArrayTableViewPopoverVC *)makePopoverWithArray:(NSArray *)array fromView:(UIView *)view;
++ (ArrayTableViewPopoverVC *)makePopoverWithArray:(NSArray *)array fromView:(UIView *)view permittedArrowDirections:(UIPopoverArrowDirection)permittedArrowDirection;
 
 - (void)setArray:(NSArray *)arrayOfStrings;
 

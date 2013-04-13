@@ -124,6 +124,9 @@
 	[self.contextToDialogueDictionary setValue:@[
 	 @"Hi", @"I love you", @"You're awesome", @"Don't you just love this café?", @"Hi, I live with my mom"
 	 ] forKey:@"Just Started"];
+	[self.contextToDialogueDictionary setValue:@[
+	 @"Hi", @"I love you"
+	 ] forKey:@"TEST"];
 }
 
 - (id)init

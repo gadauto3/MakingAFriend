@@ -51,7 +51,7 @@
 - (void)setupDialogue
 {
 	NSArray *allHisDialogues = [self.dialogueManager dialogueOptionsForContext:self.dialogueManager.currentDialogueContext];
-	self.dialogue = [ArrayTableViewPopoverVC makePopoverWithArray:allHisDialogues fromView:self.boyBackground];
+	self.dialogue = [ArrayTableViewPopoverVC makePopoverWithArray:allHisDialogues fromView:self.boyBackground permittedArrowDirections:UIPopoverArrowDirectionLeft];
 	self.dialogue.listener = self;
 }
 
@@ -108,6 +108,13 @@
 						  permittedArrowDirections:UIPopoverArrowDirectionDown
 										  animated:YES];
 	[dialogueVC setDialogue:herThought];
+}
+
+#pragma mark - Changing contexts
+
+- (IBAction)changeContext:(id)sender
+{
+	self.dialogueManager.currentDialogueContext = @"TEST";
 }
 
 
