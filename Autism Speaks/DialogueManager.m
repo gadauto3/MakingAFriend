@@ -8,16 +8,27 @@
 
 #import "DialogueManager.h"
 
+@interface DialogueManager ()
+
+@property (nonatomic, strong) NSMutableArray *allDialogue;
+
+@end
+
 @implementation DialogueManager
+
 
 - (NSArray *)allDialogueForBoy
 {
-	return nil;
+    NSString * f = @"foo";
+    NSString * b = @"bar";
+    NSString * z = @"baz";
+    self.allDialogue = [NSMutableArray arrayWithObjects:f,b,z,nil];
+    return self.allDialogueForBoy;
 }
 
 - (NSArray *)randomOptionsForBoy:(int)numToGet
 {
-	return nil;
+//	self.allDialogueForBoy
 }
 
 - (NSArray *)selectedDialogueByBoy

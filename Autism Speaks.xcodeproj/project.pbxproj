@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CEC2497A1719DDD3007C30AF /* MutableArrray.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC249791719DDD3007C30AF /* MutableArrray.m */; };
 		EEC3F39C1719416D00457687 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC3F39B1719416D00457687 /* UIKit.framework */; };
 		EEC3F39E1719416D00457687 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC3F39D1719416D00457687 /* Foundation.framework */; };
 		EEC3F3A01719416D00457687 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC3F39F1719416D00457687 /* CoreGraphics.framework */; };
@@ -42,6 +43,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CEC249781719DDD3007C30AF /* MutableArrray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutableArrray.h; sourceTree = "<group>"; };
+		CEC249791719DDD3007C30AF /* MutableArrray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MutableArrray.m; sourceTree = "<group>"; };
 		EEC3F3981719416D00457687 /* Autism Speaks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Autism Speaks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEC3F39B1719416D00457687 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EEC3F39D1719416D00457687 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -144,6 +147,8 @@
 				EEC3F3B61719416D00457687 /* ViewController.xib */,
 				EEC3F3BE1719434F00457687 /* HomeVC.h */,
 				EEC3F3BF1719434F00457687 /* HomeVC.m */,
+				CEC249781719DDD3007C30AF /* MutableArrray.h */,
+				CEC249791719DDD3007C30AF /* MutableArrray.m */,
 				EEC3F3C01719434F00457687 /* HomeVC.xib */,
 				EEC3F3C81719476900457687 /* CafeVC.h */,
 				EEC3F3C91719476900457687 /* CafeVC.m */,
@@ -304,6 +309,7 @@
 				EEC3F3E41719623900457687 /* Utilities.m in Sources */,
 				EEC3F3ED1719695300457687 /* CharacterVC.m in Sources */,
 				EEC3F3F91719DA3900457687 /* DialogueManager.m in Sources */,
+				CEC2497A1719DDD3007C30AF /* MutableArrray.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +434,7 @@
 				EEC3F3BD1719416D00457687 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
