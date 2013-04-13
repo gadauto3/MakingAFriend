@@ -78,12 +78,12 @@
 	
 	self.allDialogue = [NSMutableDictionary dictionary];
     [self.allDialogue setValue:@{
-	 KEY_NUM_FRIENDSHIP_POINTS: @5,
+	 KEY_NUM_FRIENDSHIP_POINTS: @1,
 			   KEY_HER_THOUGHT: @"Hmmm, interesting....",
 				 KEY_HER_SOUND: @"OhYeah",
-				  KEY_HER_FACE: @"disgust.png",
+				  KEY_HER_FACE: @"neutral.jpg",
 				  KEY_HER_CHAT: @"Hmmm, interesting...." }
-						forKey:@ "0"];
+						forKey:@ "Hi"];
     [self.allDialogue setValue:@{
 	 KEY_NUM_FRIENDSHIP_POINTS: @5,
 				 KEY_HER_SOUND: @"Hmmm, interesting....1",
@@ -126,11 +126,18 @@
 						forKey:@ "6"];
 }
 
+- (NSArray *)dialogueOptionsForContext:(NSString *)context
+{
+	return [self.contextToDialogueDictionary objectForKey:context];
+}
+
 - (void)setupContextDictionary
 {
 	self.contextToDialogueDictionary = [NSMutableDictionary dictionary];
 	
-	[self.contextToDialogueDictionary setValue:@[] forKey:@""];
+	[self.contextToDialogueDictionary setValue:@[
+	 @"Hi", @"I love you", @"You're awesome", @"Don't you just love this café?", @"Hi, I live with my mom"
+	 ] forKey:@"Just Started"];
 }
 
 - (id)init

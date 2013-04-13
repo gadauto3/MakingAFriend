@@ -14,6 +14,11 @@
 #define KEY_HER_FACE                @"Face"
 //disgust.png	neutral.jpg	test-oval.jpg bored.png	interested.png	surprise.png smile.png
 #define KEY_HER_CHAT                @"Her Chat bubble"
+
+
+#define CONTEXT_JUST_STARTED		@"Just Started"
+
+
 @interface DialogueManager : NSObject
 
 - (NSArray *)allDialogueForBoy;
@@ -21,5 +26,6 @@
 - (NSArray *)selectedDialogueByBoy;
 
 - (NSDictionary *)resultsForHisChat:(NSString *)hisChat;
+- (NSArray *)dialogueOptionsForContext:(NSString *)context;
 
 @end
