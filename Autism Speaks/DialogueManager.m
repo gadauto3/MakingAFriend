@@ -15,7 +15,7 @@
 	return nil;
 }
 
-- (NSArray *)randomOptionsForBoy
+- (NSArray *)randomOptionsForBoy:(int)numToGet
 {
 	return nil;
 }

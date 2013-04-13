@@ -11,7 +11,7 @@
 @interface DialogueManager : NSObject
 
 - (NSArray *)allDialogueForBoy;
-- (NSArray *)randomOptionsForBoy;
+- (NSArray *)randomOptionsForBoy:(int)numToGet;
 - (NSArray *)selectedDialogueByBoy;
 
 @end

@@ -27,7 +27,7 @@
 	// TEST DIALOGUE
 	DialogueManager *dialogueManager = [[DialogueManager alloc] init];
 	NSLog(@"ALL: %@", [dialogueManager allDialogueForBoy]);
-	NSLog(@"RANDOM: %@", [dialogueManager randomOptionsForBoy]);
+	NSLog(@"RANDOM: %@", [dialogueManager randomOptionsForBoy:3]);
 	NSLog(@"SELECTED: %@", [dialogueManager selectedDialogueByBoy]);
 	
 	
