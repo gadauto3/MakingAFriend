@@ -15,7 +15,12 @@
 @implementation CharacterVC
 
 #pragma mark - Image manipulation
-
+- (void)setCharacterImage:(NSString *)imageName
+{
+	UIImage *faceImage = [UIImage imageNamed:imageName];
+	NSParameterAssert(faceImage);
+	self.faceImageView.image = faceImage;
+}
 
 #pragma mark - Lifecycle
 

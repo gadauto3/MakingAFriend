@@ -23,12 +23,13 @@
     NSString * b = @"bar";
     NSString * z = @"baz";
     self.allDialogue = [NSMutableArray arrayWithObjects:f,b,z,nil];
-    return self.allDialogueForBoy;
+    return self.allDialogue;
 }
 
 - (NSArray *)randomOptionsForBoy:(int)numToGet
 {
 //	self.allDialogueForBoy
+	return nil;
 }
 
 - (NSArray *)selectedDialogueByBoy

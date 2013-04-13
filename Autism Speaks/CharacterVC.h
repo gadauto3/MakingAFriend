@@ -12,4 +12,6 @@
 
 @property (nonatomic, weak) IBOutlet UIImageView *faceImageView;
 
+- (void)setCharacterImage:(NSString *)imageName;
+
 @end

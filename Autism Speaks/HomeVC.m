@@ -9,10 +9,13 @@
 #import "HomeVC.h"
 
 #import "CharacterVC.h"
+#import "ArrayTableViewPopoverVC.h"
 
-@interface HomeVC ()
+@interface HomeVC () <ArrayTableViewPopoverListener>
 
 @property (nonatomic, strong) CharacterVC *boy;
+@property (nonatomic, strong) ArrayTableViewPopoverVC *dialogue;
+
 
 @end
 
@@ -27,8 +30,24 @@
 	
 	[self.boyBackground addSubview:self.boy.view];
 	self.boy.view.frame = CGRectMake(0, 0, self.boyBackground.frame.size.width, self.boyBackground.frame.size.height);
+	
+	UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(showPictureOptions)];
+	[self.boyBackground addGestureRecognizer:tap];
+	self.boyBackground.userInteractionEnabled = YES;
 }
 
+- (void)showPictureOptions
+{
+	NSArray *faces = @[@"fright-clean.png", @"fright-dirty.png", @"normal-clean.png", @"normal-dirty.png", @"sad-dirty.png", @"sad.png", @"smile.png"];
+	self.dialogue = [ArrayTableViewPopoverVC makePopoverWithArray:faces fromView:self.boyBackground];
+	self.dialogue.listener = self;
+}
+
+- (void)arrayElementSelected:(NSString *)elementName
+{
+	// Set element to picture of character
+	[self.boy setCharacterImage:elementName];
+}
 
 #pragma mark - Lifecycle
 
@@ -47,6 +66,8 @@
     // Do any additional setup after loading the view from its nib.
 	
 	[self setupCharacter];
+	
+//	[self performSelector:@selector(showPictureOptions) withObject:nil afterDelay:2];
 }
 
 - (void)didReceiveMemoryWarning

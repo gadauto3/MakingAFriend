@@ -22,6 +22,7 @@
 + (ArrayTableViewPopoverVC *)makePopoverWithArray:(NSArray *)array fromView:(UIView *)view
 {
 	ArrayTableViewPopoverVC *arrayVC = [[ArrayTableViewPopoverVC alloc] init];
+	[arrayVC setArray:array];
 	UIPopoverController *arrayPopover = [[UIPopoverController alloc] initWithContentViewController:arrayVC];
 	[arrayPopover setPopoverContentSize:arrayVC.view.frame.size];
     
@@ -78,8 +79,8 @@
 {
     NSString *selectedElement = [self.privateArray objectAtIndex:indexPath.row];
 	
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:nil message:[NSString stringWithFormat:@"You selected %@!", selectedElement] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
-    [alert show];
+//    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:nil message:[NSString stringWithFormat:@"You selected %@!", selectedElement] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+//    [alert show];
 	
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
 	
@@ -96,6 +97,7 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
+		self.privateArray = @[@"test1", @"test2", @"test3", @"test4"];
     }
     return self;
 }
@@ -104,8 +106,6 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-	
-	self.privateArray = @[@"test1", @"test2", @"test3", @"test4"];
 	
 	NSIndexPath *path = [NSIndexPath indexPathForRow:0 inSection:0];
 	UITableViewCell *sizingCell = [self tableView:self.tableView cellForRowAtIndexPath:path];

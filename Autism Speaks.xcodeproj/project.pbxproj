@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		CEC2497A1719DDD3007C30AF /* MutableArrray.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC249791719DDD3007C30AF /* MutableArrray.m */; };
+		EE17450F1719F2A700813F5E /* fright-clean.png in Resources */ = {isa = PBXBuildFile; fileRef = EE1745071719F2A700813F5E /* fright-clean.png */; };
+		EE1745101719F2A700813F5E /* fright-dirty.png in Resources */ = {isa = PBXBuildFile; fileRef = EE1745081719F2A700813F5E /* fright-dirty.png */; };
+		EE1745121719F2A700813F5E /* normal-clean.png in Resources */ = {isa = PBXBuildFile; fileRef = EE17450A1719F2A700813F5E /* normal-clean.png */; };
+		EE1745131719F2A700813F5E /* normal-dirty.png in Resources */ = {isa = PBXBuildFile; fileRef = EE17450B1719F2A700813F5E /* normal-dirty.png */; };
+		EE1745141719F2A700813F5E /* sad-dirty.png in Resources */ = {isa = PBXBuildFile; fileRef = EE17450C1719F2A700813F5E /* sad-dirty.png */; };
+		EE1745151719F2A700813F5E /* sad.png in Resources */ = {isa = PBXBuildFile; fileRef = EE17450D1719F2A700813F5E /* sad.png */; };
+		EE1745161719F2A700813F5E /* smile.png in Resources */ = {isa = PBXBuildFile; fileRef = EE17450E1719F2A700813F5E /* smile.png */; };
 		EEC3F39C1719416D00457687 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC3F39B1719416D00457687 /* UIKit.framework */; };
 		EEC3F39E1719416D00457687 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC3F39D1719416D00457687 /* Foundation.framework */; };
 		EEC3F3A01719416D00457687 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC3F39F1719416D00457687 /* CoreGraphics.framework */; };
@@ -46,6 +53,13 @@
 /* Begin PBXFileReference section */
 		CEC249781719DDD3007C30AF /* MutableArrray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutableArrray.h; sourceTree = "<group>"; };
 		CEC249791719DDD3007C30AF /* MutableArrray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MutableArrray.m; sourceTree = "<group>"; };
+		EE1745071719F2A700813F5E /* fright-clean.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fright-clean.png"; sourceTree = "<group>"; };
+		EE1745081719F2A700813F5E /* fright-dirty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fright-dirty.png"; sourceTree = "<group>"; };
+		EE17450A1719F2A700813F5E /* normal-clean.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "normal-clean.png"; sourceTree = "<group>"; };
+		EE17450B1719F2A700813F5E /* normal-dirty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "normal-dirty.png"; sourceTree = "<group>"; };
+		EE17450C1719F2A700813F5E /* sad-dirty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sad-dirty.png"; sourceTree = "<group>"; };
+		EE17450D1719F2A700813F5E /* sad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sad.png; sourceTree = "<group>"; };
+		EE17450E1719F2A700813F5E /* smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smile.png; sourceTree = "<group>"; };
 		EEC3F3981719416D00457687 /* Autism Speaks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Autism Speaks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEC3F39B1719416D00457687 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EEC3F39D1719416D00457687 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -112,6 +126,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EE1745061719F2A700813F5E /* Him_Sprites */ = {
+			isa = PBXGroup;
+			children = (
+				EE1745071719F2A700813F5E /* fright-clean.png */,
+				EE1745081719F2A700813F5E /* fright-dirty.png */,
+				EE17450A1719F2A700813F5E /* normal-clean.png */,
+				EE17450B1719F2A700813F5E /* normal-dirty.png */,
+				EE17450C1719F2A700813F5E /* sad-dirty.png */,
+				EE17450D1719F2A700813F5E /* sad.png */,
+				EE17450E1719F2A700813F5E /* smile.png */,
+			);
+			path = Him_Sprites;
+			sourceTree = "<group>";
+		};
 		EEC3F38F1719416D00457687 = {
 			isa = PBXGroup;
 			children = (
@@ -193,6 +221,7 @@
 		EEC3F3C3171946C300457687 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				EE1745061719F2A700813F5E /* Him_Sprites */,
 				EEC3F3F317196F6900457687 /* oval.jpg */,
 				EEC3F3F5171970BE00457687 /* dude.jpg */,
 				EEC3F3EF17196ABC00457687 /* disgust.png */,
@@ -291,6 +320,13 @@
 				EEC3F3F017196ABC00457687 /* disgust.png in Resources */,
 				EEC3F3F417196F6900457687 /* oval.jpg in Resources */,
 				EEC3F3F6171970BE00457687 /* dude.jpg in Resources */,
+				EE17450F1719F2A700813F5E /* fright-clean.png in Resources */,
+				EE1745101719F2A700813F5E /* fright-dirty.png in Resources */,
+				EE1745121719F2A700813F5E /* normal-clean.png in Resources */,
+				EE1745131719F2A700813F5E /* normal-dirty.png in Resources */,
+				EE1745141719F2A700813F5E /* sad-dirty.png in Resources */,
+				EE1745151719F2A700813F5E /* sad.png in Resources */,
+				EE1745161719F2A700813F5E /* smile.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
