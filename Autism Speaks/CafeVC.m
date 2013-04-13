@@ -92,10 +92,15 @@
 	self.pointsLabel.text = [NSString stringWithFormat:@"+%d", numPoints];
 	
 	[UIView animateWithDuration:TIME_FOR_POINTS animations:^{
-		self.pointsView.transform = CGAffineTransformMakeTranslation(0, -200);
-		self.pointsView.alpha = 0.0;
+		self.pointsView.center = self.confidencePointsView.center;
+		self.pointsView.alpha = 0.1;
 	} completion:^(BOOL finished) {
 		self.pointsView.transform = CGAffineTransformIdentity;
+		self.pointsView.hidden = YES;
+		
+		int currPoints = self.confidencePointsLabel.text.intValue;
+		int addPoints = self.pointsLabel.text.intValue;
+		self.confidencePointsLabel.text = [NSString stringWithFormat:@"%d", currPoints + addPoints];
 	}];
 }
 
@@ -147,6 +152,7 @@
 	
 	self.pointsView.hidden = YES;
 	self.pointsView.layer.cornerRadius = 50.0;
+	self.confidencePointsView.layer.cornerRadius = 30.0;
 }
 
 - (void)didReceiveMemoryWarning
