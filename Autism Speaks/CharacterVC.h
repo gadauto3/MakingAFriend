@@ -10,4 +10,6 @@
 
 @interface CharacterVC : UIViewController
 
+@property (nonatomic, weak) IBOutlet UIImageView *faceImageView;
+
 @end

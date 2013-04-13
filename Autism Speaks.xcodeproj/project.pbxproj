@@ -36,6 +36,8 @@
 		EEC3F3ED1719695300457687 /* CharacterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC3F3EB1719695200457687 /* CharacterVC.m */; };
 		EEC3F3EE1719695300457687 /* CharacterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEC3F3EC1719695200457687 /* CharacterVC.xib */; };
 		EEC3F3F017196ABC00457687 /* disgust.png in Resources */ = {isa = PBXBuildFile; fileRef = EEC3F3EF17196ABC00457687 /* disgust.png */; };
+		EEC3F3F417196F6900457687 /* oval.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EEC3F3F317196F6900457687 /* oval.jpg */; };
+		EEC3F3F6171970BE00457687 /* dude.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EEC3F3F5171970BE00457687 /* dude.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +84,8 @@
 		EEC3F3EB1719695200457687 /* CharacterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterVC.m; sourceTree = "<group>"; };
 		EEC3F3EC1719695200457687 /* CharacterVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CharacterVC.xib; sourceTree = "<group>"; };
 		EEC3F3EF17196ABC00457687 /* disgust.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = disgust.png; sourceTree = "<group>"; };
+		EEC3F3F317196F6900457687 /* oval.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oval.jpg; sourceTree = "<group>"; };
+		EEC3F3F5171970BE00457687 /* dude.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dude.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +178,8 @@
 		EEC3F3C3171946C300457687 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				EEC3F3F317196F6900457687 /* oval.jpg */,
+				EEC3F3F5171970BE00457687 /* dude.jpg */,
 				EEC3F3EF17196ABC00457687 /* disgust.png */,
 				EEC3F3C41719473200457687 /* home.jpg */,
 				EEC3F3C61719474200457687 /* cafe.jpg */,
@@ -268,6 +274,8 @@
 				EEC3F3E91719639600457687 /* OhYeah.aiff in Resources */,
 				EEC3F3EE1719695300457687 /* CharacterVC.xib in Resources */,
 				EEC3F3F017196ABC00457687 /* disgust.png in Resources */,
+				EEC3F3F417196F6900457687 /* oval.jpg in Resources */,
+				EEC3F3F6171970BE00457687 /* dude.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
