@@ -89,41 +89,27 @@
 				 KEY_HER_SOUND: @"Hmmm, interesting....1",
 				  KEY_HER_FACE: @"neutral.jpg",
 				  KEY_HER_CHAT: @"Hmmm, interesting....1" }
-						forKey:@ "1"];
+						forKey:@ "I love you"];
+	[self.allDialogue setValue:@{
+	 KEY_NUM_FRIENDSHIP_POINTS: @5,
+			   KEY_HER_THOUGHT: @"Hmmm, interesting....6",
+				 KEY_HER_SOUND: @"Hmmm, interesting....6",
+				  KEY_HER_FACE: @"smile.png",
+				  KEY_HER_CHAT: @"Hmmm, interesting....6" }
+						forKey:@ "You're awesome"];
     [self.allDialogue setValue:@{
 	 KEY_NUM_FRIENDSHIP_POINTS: @5,
 			   KEY_HER_THOUGHT: @"Hmmm, interesting....2",
 				 KEY_HER_SOUND: @"Hmmm, interesting....2",
 				  KEY_HER_FACE: @"test-oval.jpg",
 				  KEY_HER_CHAT: @"Hmmm, interesting....2" }
-						forKey:@ "2"];
+						forKey:@ "Don't you just love this café?"];
     [self.allDialogue setValue:@{
 	 KEY_NUM_FRIENDSHIP_POINTS: @5,
 				 KEY_HER_SOUND: @"Hmmm, interesting....3",
 				  KEY_HER_FACE: @"bored.png",
 				  KEY_HER_CHAT: @"Hmmm, interesting....3" }
-						forKey:@ "3"];
-    [self.allDialogue setValue:@{
-	 KEY_NUM_FRIENDSHIP_POINTS: @5,
-			   KEY_HER_THOUGHT: @"Hmmm, interesting....4",
-				 KEY_HER_SOUND: @"Hmmm, interesting....4",
-				  KEY_HER_FACE: @"interested.png",
-				  KEY_HER_CHAT: @"Hmmm, interesting....4" }
-						forKey:@ "4"];
-    [self.allDialogue setValue:@{
-	 KEY_NUM_FRIENDSHIP_POINTS: @5,
-			   KEY_HER_THOUGHT: @"Hmmm, interesting....5",
-				 KEY_HER_SOUND: @"Hmmm, interesting....5",
-				  KEY_HER_FACE: @"surprise.png",
-				  KEY_HER_CHAT: @"Hmmm, interesting....5" }
-						forKey:@ "5"];
-    [self.allDialogue setValue:@{
-	 KEY_NUM_FRIENDSHIP_POINTS: @5,
-			   KEY_HER_THOUGHT: @"Hmmm, interesting....6",
-				 KEY_HER_SOUND: @"Hmmm, interesting....6",
-				  KEY_HER_FACE: @"smile.png",
-				  KEY_HER_CHAT: @"Hmmm, interesting....6" }
-						forKey:@ "6"];
+						forKey:@ "Hi, I live with my mom"];
 }
 
 - (NSArray *)dialogueOptionsForContext:(NSString *)context

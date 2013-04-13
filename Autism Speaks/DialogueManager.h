@@ -21,6 +21,8 @@
 
 @interface DialogueManager : NSObject
 
+@property (nonatomic, strong) NSString *currentDialogueContext;
+
 - (NSArray *)allDialogueForBoy;
 - (NSArray *)randomOptionsForBoy:(int)numToGet;
 - (NSArray *)selectedDialogueByBoy;

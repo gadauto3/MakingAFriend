@@ -48,14 +48,14 @@
 
 - (void)setupDialogue
 {
-	self.dialogueManager = [[DialogueManager alloc] init];
-	NSArray *allHisDialogues = [self.dialogueManager allDialogueForBoy];
+	NSArray *allHisDialogues = [self.dialogueManager dialogueOptionsForContext:self.dialogueManager.currentDialogueContext];
 	self.dialogue = [ArrayTableViewPopoverVC makePopoverWithArray:allHisDialogues fromView:self.boyBackground];
 	self.dialogue.listener = self;
 }
 
 - (void)arrayElementSelected:(NSString *)elementName
 {
+	
 	NSDictionary *chatResult = [self.dialogueManager resultsForHisChat:elementName];
 	
 	NSString *herFaceChange = [chatResult objectForKey:KEY_HER_FACE];
@@ -126,6 +126,8 @@
     // Do any additional setup after loading the view from its nib.
 	
 	[self setupCharacters];
+	self.dialogueManager = [[DialogueManager alloc] init];
+	self.dialogueManager.currentDialogueContext = CONTEXT_JUST_STARTED;
 	
 	self.pointsView.hidden = YES;
 	

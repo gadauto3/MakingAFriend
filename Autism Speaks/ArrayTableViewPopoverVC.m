@@ -79,9 +79,6 @@
 {
     NSString *selectedElement = [self.privateArray objectAtIndex:indexPath.row];
 	
-//    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:nil message:[NSString stringWithFormat:@"You selected %@!", selectedElement] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
-//    [alert show];
-	
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
 	
 	[self.privatePopover dismissPopoverAnimated:YES];
