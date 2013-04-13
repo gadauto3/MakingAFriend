@@ -54,6 +54,27 @@
 	if (herFaceChange) {
 		[self.girl setCharacterImage:herFaceChange];
 	}
+	
+	NSNumber *friendshipPoints = [chatResult objectForKey:KEY_NUM_FRIENDSHIP_POINTS];
+	if (friendshipPoints) {
+		[self doFriendshipPointsAnimationForNumPoints:friendshipPoints.intValue];
+	}
+}
+
+- (void)doFriendshipPointsAnimationForNumPoints:(int)numPoints
+{
+	self.pointsView.hidden = NO;
+	self.pointsView.center = CGPointMake(self.girlBackground.frame.origin.x + self.girlBackground.frame.size.width/2.0, self.girlBackground.frame.origin.y);
+	self.pointsView.alpha = 1.0;
+	
+	self.pointsLabel.text = [NSString stringWithFormat:@"+%d", numPoints];
+	
+	[UIView animateWithDuration:1.2 animations:^{
+		self.pointsView.transform = CGAffineTransformMakeTranslation(0, -100);
+		self.pointsView.alpha = 0.0;
+	} completion:^(BOOL finished) {
+		self.pointsView.transform = CGAffineTransformIdentity;
+	}];
 }
 
 
@@ -74,6 +95,8 @@
     // Do any additional setup after loading the view from its nib.
 	
 	[self setupCharacters];
+	
+	self.pointsView.hidden = YES;
 	
 }
 

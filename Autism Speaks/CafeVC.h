@@ -11,4 +11,7 @@
 @property (nonatomic, weak) IBOutlet UIImageView *boyBackground;
 @property (nonatomic, weak) IBOutlet UIImageView *girlBackground;
 
+@property (nonatomic, weak) IBOutlet UIView *pointsView;
+@property (nonatomic, weak) IBOutlet UILabel *pointsLabel;
+
 @end
