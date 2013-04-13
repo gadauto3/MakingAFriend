@@ -28,54 +28,55 @@
 
 - (NSArray *)allDialogueForBoy
 {
-    [self.dialogueOptions setValue:@{
+	self.allDialogue = [NSMutableDictionary dictionary];
+    [self.allDialogue setValue:@{
          KEY_NUM_FRIENDSHIP_POINTS: @5,
                    KEY_HER_THOUGHT: @"Hmmm, interesting....",
                      KEY_HER_SOUND: @"Hmmm, interesting....",
                       KEY_HER_FACE: @"disgust.png",
                       KEY_HER_CHAT: @"Hmmm, interesting...." }
                             forKey:@ "0"];
-    [self.dialogueOptions setValue:@{
+    [self.allDialogue setValue:@{
          KEY_NUM_FRIENDSHIP_POINTS: @5,
-                   KEY_HER_THOUGHT: @"Hmmm, interesting....",
-                     KEY_HER_SOUND: @"Hmmm, interesting....",
+                   KEY_HER_THOUGHT: @"Hmmm, interesting....1",
+                     KEY_HER_SOUND: @"Hmmm, interesting....1",
                       KEY_HER_FACE: @"neutral.jpg",
-                      KEY_HER_CHAT: @"Hmmm, interesting...." }
+                      KEY_HER_CHAT: @"Hmmm, interesting....1" }
                             forKey:@ "1"];
-    [self.dialogueOptions setValue:@{
+    [self.allDialogue setValue:@{
          KEY_NUM_FRIENDSHIP_POINTS: @5,
-                   KEY_HER_THOUGHT: @"Hmmm, interesting....",
-                     KEY_HER_SOUND: @"Hmmm, interesting....",
+                   KEY_HER_THOUGHT: @"Hmmm, interesting....2",
+                     KEY_HER_SOUND: @"Hmmm, interesting....2",
                       KEY_HER_FACE: @"test-oval.jpg",
-                      KEY_HER_CHAT: @"Hmmm, interesting...." }
+                      KEY_HER_CHAT: @"Hmmm, interesting....2" }
                             forKey:@ "2"];
-    [self.dialogueOptions setValue:@{
+    [self.allDialogue setValue:@{
          KEY_NUM_FRIENDSHIP_POINTS: @5,
-                   KEY_HER_THOUGHT: @"Hmmm, interesting....",
-                     KEY_HER_SOUND: @"Hmmm, interesting....",
+                   KEY_HER_THOUGHT: @"Hmmm, interesting....3",
+                     KEY_HER_SOUND: @"Hmmm, interesting....3",
                       KEY_HER_FACE: @"bored.png",
-                      KEY_HER_CHAT: @"Hmmm, interesting...." }
+                      KEY_HER_CHAT: @"Hmmm, interesting....3" }
                             forKey:@ "3"];
-    [self.dialogueOptions setValue:@{
+    [self.allDialogue setValue:@{
          KEY_NUM_FRIENDSHIP_POINTS: @5,
-                   KEY_HER_THOUGHT: @"Hmmm, interesting....",
-                     KEY_HER_SOUND: @"Hmmm, interesting....",
+                   KEY_HER_THOUGHT: @"Hmmm, interesting....4",
+                     KEY_HER_SOUND: @"Hmmm, interesting....4",
                       KEY_HER_FACE: @"interested.png",
-                      KEY_HER_CHAT: @"Hmmm, interesting...." }
+                      KEY_HER_CHAT: @"Hmmm, interesting....4" }
                             forKey:@ "4"];
-    [self.dialogueOptions setValue:@{
+    [self.allDialogue setValue:@{
          KEY_NUM_FRIENDSHIP_POINTS: @5,
-                   KEY_HER_THOUGHT: @"Hmmm, interesting....",
-                     KEY_HER_SOUND: @"Hmmm, interesting....",
+                   KEY_HER_THOUGHT: @"Hmmm, interesting....5",
+                     KEY_HER_SOUND: @"Hmmm, interesting....5",
                       KEY_HER_FACE: @"surprise.png",
-                      KEY_HER_CHAT: @"Hmmm, interesting...." }
+                      KEY_HER_CHAT: @"Hmmm, interesting....5" }
                             forKey:@ "5"];
-    [self.dialogueOptions setValue:@{
+    [self.allDialogue setValue:@{
          KEY_NUM_FRIENDSHIP_POINTS: @5,
-                   KEY_HER_THOUGHT: @"Hmmm, interesting....",
-                     KEY_HER_SOUND: @"Hmmm, interesting....",
+                   KEY_HER_THOUGHT: @"Hmmm, interesting....6",
+                     KEY_HER_SOUND: @"Hmmm, interesting....6",
                       KEY_HER_FACE: @"smile.png",
-                      KEY_HER_CHAT: @"Hmmm, interesting...." }
+                      KEY_HER_CHAT: @"Hmmm, interesting....6" }
                             forKey:@ "6"];
     
     return self.allDialogue.allKeys;
@@ -115,17 +116,6 @@
     //    for (int count = 0; count <= numToGet; count++) {
             
         // pass that array index into array for output
-<<<<<<< HEAD
-//        [self.dialogueOptions insertObject:[shuffled objectAtIndex:count] atIndex:count];
-        }
-    }
-    
-=======
-    //    [self.dialogueOptions insertObject:[shuffled objectAtIndex:count] atIndex:count];
-    //    }
-    //}
-
->>>>>>> I have to put commit messages in...
     return self.dialogueOptions;
 }
 

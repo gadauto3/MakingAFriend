@@ -19,6 +19,7 @@
 @property (nonatomic, strong) CharacterVC *girl;
 
 @property (nonatomic, strong) ArrayTableViewPopoverVC *dialogue;
+@property (nonatomic, strong) DialogueManager *dialogueManager;
 
 @end
 
@@ -42,15 +43,17 @@
 
 - (void)setupDialogue
 {
-	self.dialogue = [ArrayTableViewPopoverVC makePopoverWithArray:@[@"hisChat"] fromView:self.boyBackground];
+	self.dialogueManager = [[DialogueManager alloc] init];
+	NSArray *allHisDialogues = [self.dialogueManager allDialogueForBoy];
+	self.dialogue = [ArrayTableViewPopoverVC makePopoverWithArray:allHisDialogues fromView:self.boyBackground];
 	self.dialogue.listener = self;
 }
 
 - (void)arrayElementSelected:(NSString *)elementName
 {
-	NSDictionary *chatResult = @{KEY_NUM_HER_THOUGHT: @"bored.png", KEY_NUM_FRIENDSHIP_POINTS:@3};
+	NSDictionary *chatResult = [self.dialogueManager resultsForHisChat:elementName];
 	
-	NSString *herFaceChange = [chatResult objectForKey:KEY_NUM_HER_THOUGHT];
+	NSString *herFaceChange = [chatResult objectForKey:KEY_HER_FACE];
 	if (herFaceChange) {
 		[self.girl setCharacterImage:herFaceChange];
 	}
