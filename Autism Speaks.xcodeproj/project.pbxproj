@@ -30,6 +30,9 @@
 		EEC3F3DB17195D5900457687 /* PDFView.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC3F3D517195D5400457687 /* PDFView.m */; };
 		EEC3F3DC17195D5900457687 /* UIImage+PDF.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC3F3D717195D5600457687 /* UIImage+PDF.m */; };
 		EEC3F3DD17195D5900457687 /* UIView+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC3F3D917195D5800457687 /* UIView+Image.m */; };
+		EEC3F3E41719623900457687 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC3F3E31719623900457687 /* Utilities.m */; };
+		EEC3F3E61719625B00457687 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC3F3E51719625A00457687 /* AudioToolbox.framework */; };
+		EEC3F3E91719639600457687 /* OhYeah.aiff in Resources */ = {isa = PBXBuildFile; fileRef = EEC3F3E81719639600457687 /* OhYeah.aiff */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +71,10 @@
 		EEC3F3D717195D5600457687 /* UIImage+PDF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+PDF.m"; sourceTree = "<group>"; };
 		EEC3F3D817195D5600457687 /* UIView+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Image.h"; sourceTree = "<group>"; };
 		EEC3F3D917195D5800457687 /* UIView+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Image.m"; sourceTree = "<group>"; };
+		EEC3F3E21719623900457687 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		EEC3F3E31719623900457687 /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
+		EEC3F3E51719625A00457687 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		EEC3F3E81719639600457687 /* OhYeah.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = OhYeah.aiff; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEC3F3E61719625B00457687 /* AudioToolbox.framework in Frameworks */,
 				EEC3F39C1719416D00457687 /* UIKit.framework in Frameworks */,
 				EEC3F39E1719416D00457687 /* Foundation.framework in Frameworks */,
 				EEC3F3A01719416D00457687 /* CoreGraphics.framework in Frameworks */,
@@ -87,6 +95,7 @@
 		EEC3F38F1719416D00457687 = {
 			isa = PBXGroup;
 			children = (
+				EEC3F3E51719625A00457687 /* AudioToolbox.framework */,
 				EEC3F3A11719416D00457687 /* Autism Speaks */,
 				EEC3F39A1719416D00457687 /* Frameworks */,
 				EEC3F3991719416D00457687 /* Products */,
@@ -131,6 +140,8 @@
 				EEC3F3D217195D5100457687 /* NSString+MD5.h */,
 				EEC3F3DE17195D6300457687 /* UIImage+PDF */,
 				EEC3F3A21719416D00457687 /* Supporting Files */,
+				EEC3F3E21719623900457687 /* Utilities.h */,
+				EEC3F3E31719623900457687 /* Utilities.m */,
 			);
 			path = "Autism Speaks";
 			sourceTree = "<group>";
@@ -138,6 +149,7 @@
 		EEC3F3A21719416D00457687 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EEC3F3E71719637F00457687 /* sounds */,
 				EEC3F3C3171946C300457687 /* images */,
 				EEC3F3A31719416D00457687 /* Autism Speaks-Info.plist */,
 				EEC3F3A41719416D00457687 /* InfoPlist.strings */,
@@ -171,6 +183,14 @@
 				EEC3F3D917195D5800457687 /* UIView+Image.m */,
 			);
 			name = "UIImage+PDF";
+			sourceTree = "<group>";
+		};
+		EEC3F3E71719637F00457687 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				EEC3F3E81719639600457687 /* OhYeah.aiff */,
+			);
+			name = sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +254,7 @@
 				EEC3F3C71719474200457687 /* cafe.jpg in Resources */,
 				EEC3F3CC1719476900457687 /* CafeVC.xib in Resources */,
 				EEC3F3D11719482900457687 /* BackgroundVC.xib in Resources */,
+				EEC3F3E91719639600457687 /* OhYeah.aiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +275,7 @@
 				EEC3F3DB17195D5900457687 /* PDFView.m in Sources */,
 				EEC3F3DC17195D5900457687 /* UIImage+PDF.m in Sources */,
 				EEC3F3DD17195D5900457687 /* UIView+Image.m in Sources */,
+				EEC3F3E41719623900457687 /* Utilities.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
