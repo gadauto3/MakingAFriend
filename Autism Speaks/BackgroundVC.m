@@ -59,8 +59,6 @@
 	[self.scrollView addSubview:self.cafeVC.view];
 	
 	self.scrollView.contentSize = CGSizeMake(self.homeVC.view.frame.size.width + self.cafeVC.view.frame.size.width, MAX(self.homeVC.view.frame.size.height, self.cafeVC.view.frame.size.height));
-	
-	[self performSelector:@selector(pokeOutCafeView) withObject:nil afterDelay:3];
 }
 
 - (void)didReceiveMemoryWarning
