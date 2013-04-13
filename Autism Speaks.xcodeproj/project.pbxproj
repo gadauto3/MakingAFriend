@@ -23,6 +23,7 @@
 		EE174525171A006F00813F5E /* test-oval.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE17451E171A006F00813F5E /* test-oval.jpg */; };
 		EE174529171A0AE700813F5E /* DialogueVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EE174527171A0AE700813F5E /* DialogueVC.m */; };
 		EE17452A171A0AE700813F5E /* DialogueVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE174528171A0AE700813F5E /* DialogueVC.xib */; };
+		EE17452C171A0F1600813F5E /* coffee-shop.png in Resources */ = {isa = PBXBuildFile; fileRef = EE17452B171A0F1600813F5E /* coffee-shop.png */; };
 		EEC3F39C1719416D00457687 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC3F39B1719416D00457687 /* UIKit.framework */; };
 		EEC3F39E1719416D00457687 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC3F39D1719416D00457687 /* Foundation.framework */; };
 		EEC3F3A01719416D00457687 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC3F39F1719416D00457687 /* CoreGraphics.framework */; };
@@ -77,6 +78,7 @@
 		EE174526171A0AE700813F5E /* DialogueVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DialogueVC.h; sourceTree = "<group>"; };
 		EE174527171A0AE700813F5E /* DialogueVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DialogueVC.m; sourceTree = "<group>"; };
 		EE174528171A0AE700813F5E /* DialogueVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DialogueVC.xib; sourceTree = "<group>"; };
+		EE17452B171A0F1600813F5E /* coffee-shop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "coffee-shop.png"; sourceTree = "<group>"; };
 		EEC3F3981719416D00457687 /* Autism Speaks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Autism Speaks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEC3F39B1719416D00457687 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EEC3F39D1719416D00457687 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -257,6 +259,7 @@
 				EE174517171A006F00813F5E /* Her_Sprites */,
 				EE1745061719F2A700813F5E /* Him_Sprites */,
 				EEC3F3F317196F6900457687 /* oval.jpg */,
+				EE17452B171A0F1600813F5E /* coffee-shop.png */,
 				EEC3F3F5171970BE00457687 /* dude.jpg */,
 				EEC3F3EF17196ABC00457687 /* disgust.png */,
 				EEC3F3C41719473200457687 /* home.jpg */,
@@ -368,6 +371,7 @@
 				EE174524171A006F00813F5E /* surprise.png in Resources */,
 				EE174525171A006F00813F5E /* test-oval.jpg in Resources */,
 				EE17452A171A0AE700813F5E /* DialogueVC.xib in Resources */,
+				EE17452C171A0F1600813F5E /* coffee-shop.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
