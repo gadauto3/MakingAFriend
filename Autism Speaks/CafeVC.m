@@ -14,6 +14,8 @@
 #import "DialogueManager.h"
 #import "DialogueVC.h"
 
+#import "Utilities.h"
+
 @interface CafeVC () <ArrayTableViewPopoverListener>
 
 @property (nonatomic, strong) CharacterVC *boy;
@@ -69,6 +71,11 @@
 	NSString *herThought = [chatResult objectForKey:KEY_HER_THOUGHT];
 	if (herThought) {
 		[self showHerThought:herThought];
+	}
+	
+	NSString *herSound = [chatResult objectForKey:KEY_HER_SOUND];
+	if (herSound) {
+		[Utilities playSoundNamed:herSound];
 	}
 }
 

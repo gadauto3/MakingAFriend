@@ -14,6 +14,7 @@
 
 +(void) playSoundNamed:(NSString *)soundName {
     NSString *soundPath = [[NSBundle mainBundle] pathForResource:soundName ofType:@"aiff"];
+	if (soundPath == nil) return;
     SystemSoundID soundID;
     AudioServicesCreateSystemSoundID((__bridge CFURLRef)[NSURL fileURLWithPath: soundPath], &soundID);
     AudioServicesPlaySystemSound (soundID);
