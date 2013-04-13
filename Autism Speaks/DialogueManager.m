@@ -93,6 +93,7 @@
 	 KEY_NUM_FRIENDSHIP_POINTS: @0,
 			   KEY_HER_THOUGHT: @"How would you know?",
 				  KEY_HER_FACE: @"bored.png" }
+                    
 						forKey:@ "You're awesome"];
     
     //Just Started		Don't you just love this café?	1	interested.png		It's okay
@@ -106,8 +107,44 @@
     [self.allDialogue setValue:@{
 	 KEY_NUM_FRIENDSHIP_POINTS: @0,
 			   KEY_HER_THOUGHT: @"That's a weird thing to say!",
-				  KEY_HER_FACE: @"surprise.png" }
+				  KEY_HER_FACE: @"surprise.png",
+                 KEY_HER_SOUND: @"woman_sighing.aiff"}
 						forKey:@ "Hi, I live with my mom"];
+    
+    //Trying to Sit		Is this seat taken?	1	neutral.jpg		No, it is all yours
+    [self.allDialogue setValue:@{
+	 KEY_NUM_FRIENDSHIP_POINTS: @1,
+				  KEY_HER_FACE: @"neutral.jpg",
+                  KEY_HER_CHAT: @"No, it is all yours"}
+						forKey:@ "Is this seat taken?"];
+    //	May I join you?	1	interested.png		Sure, why not
+    [self.allDialogue setValue:@{
+	 KEY_NUM_FRIENDSHIP_POINTS: @1,
+				  KEY_HER_FACE: @"interested.png",
+                  KEY_HER_CHAT: @"Sure, why not"}
+						forKey:@ "May I join you?"];
+    //I annex this seat in the name of King Me
+    [self.allDialogue setValue:@{
+	 KEY_NUM_FRIENDSHIP_POINTS: @0,
+			   KEY_HER_THOUGHT: @"I wish he had asked to sit down.",
+				  KEY_HER_FACE: @"surprise.png"}
+						forKey:@ "I annex this seat in the name of King Me"];
+    
+    //Sit Down
+    [self.allDialogue setValue:@{
+	 KEY_NUM_FRIENDSHIP_POINTS: @0,
+			   KEY_HER_THOUGHT: @"That was rude",
+				  KEY_HER_FACE: @"surprise.png",
+                 KEY_HER_SOUND: @"woman_gasp.aiff"}
+						forKey:@ "(Sit Down)"];
+    
+    [self.allDialogue setValue:@{
+	 KEY_NUM_FRIENDSHIP_POINTS: @0,
+			   KEY_HER_THOUGHT: @"That's a weird thing to say!",
+				  KEY_HER_FACE: @"surprise.png",
+                 KEY_HER_SOUND: @"woman_sighing.aiff",
+                  KEY_HER_CHAT: @""}
+						forKey:@ "x11"];
 	
 }
 
@@ -123,6 +160,9 @@
 	[self.contextToDialogueDictionary setValue:@[
 	 @"Hi", @"I love you", @"You're awesome", @"Don't you just love this café?", @"Hi, I live with my mom"
 	 ] forKey:@"Just Started"];
+    [self.contextToDialogueDictionary setValue:@[
+	 @"Is this seat taken?", @"May I join you?", @"I annex this seat in the name of King Me", @"(Sit Down)"
+	 ] forKey:@"Trying to sit"];
 	[self.contextToDialogueDictionary setValue:@[
 	 @"Hi", @"I love you"
 	 ] forKey:@"TEST"];
