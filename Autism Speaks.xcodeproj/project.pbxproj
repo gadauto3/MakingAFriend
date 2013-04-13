@@ -26,6 +26,10 @@
 		EEC3F3CC1719476900457687 /* CafeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEC3F3CA1719476900457687 /* CafeVC.xib */; };
 		EEC3F3D01719482900457687 /* BackgroundVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC3F3CE1719482900457687 /* BackgroundVC.m */; };
 		EEC3F3D11719482900457687 /* BackgroundVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEC3F3CF1719482900457687 /* BackgroundVC.xib */; };
+		EEC3F3DA17195D5900457687 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC3F3D317195D5200457687 /* NSString+MD5.m */; };
+		EEC3F3DB17195D5900457687 /* PDFView.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC3F3D517195D5400457687 /* PDFView.m */; };
+		EEC3F3DC17195D5900457687 /* UIImage+PDF.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC3F3D717195D5600457687 /* UIImage+PDF.m */; };
+		EEC3F3DD17195D5900457687 /* UIView+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC3F3D917195D5800457687 /* UIView+Image.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +60,14 @@
 		EEC3F3CD1719482900457687 /* BackgroundVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundVC.h; sourceTree = "<group>"; };
 		EEC3F3CE1719482900457687 /* BackgroundVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundVC.m; sourceTree = "<group>"; };
 		EEC3F3CF1719482900457687 /* BackgroundVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BackgroundVC.xib; sourceTree = "<group>"; };
+		EEC3F3D217195D5100457687 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		EEC3F3D317195D5200457687 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		EEC3F3D417195D5300457687 /* PDFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFView.h; sourceTree = "<group>"; };
+		EEC3F3D517195D5400457687 /* PDFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFView.m; sourceTree = "<group>"; };
+		EEC3F3D617195D5500457687 /* UIImage+PDF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+PDF.h"; sourceTree = "<group>"; };
+		EEC3F3D717195D5600457687 /* UIImage+PDF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+PDF.m"; sourceTree = "<group>"; };
+		EEC3F3D817195D5600457687 /* UIView+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Image.h"; sourceTree = "<group>"; };
+		EEC3F3D917195D5800457687 /* UIView+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Image.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +128,8 @@
 				EEC3F3CD1719482900457687 /* BackgroundVC.h */,
 				EEC3F3CE1719482900457687 /* BackgroundVC.m */,
 				EEC3F3CF1719482900457687 /* BackgroundVC.xib */,
+				EEC3F3D217195D5100457687 /* NSString+MD5.h */,
+				EEC3F3DE17195D6300457687 /* UIImage+PDF */,
 				EEC3F3A21719416D00457687 /* Supporting Files */,
 			);
 			path = "Autism Speaks";
@@ -143,6 +157,20 @@
 				EEC3F3C61719474200457687 /* cafe.jpg */,
 			);
 			name = images;
+			sourceTree = "<group>";
+		};
+		EEC3F3DE17195D6300457687 /* UIImage+PDF */ = {
+			isa = PBXGroup;
+			children = (
+				EEC3F3D317195D5200457687 /* NSString+MD5.m */,
+				EEC3F3D417195D5300457687 /* PDFView.h */,
+				EEC3F3D517195D5400457687 /* PDFView.m */,
+				EEC3F3D617195D5500457687 /* UIImage+PDF.h */,
+				EEC3F3D717195D5600457687 /* UIImage+PDF.m */,
+				EEC3F3D817195D5600457687 /* UIView+Image.h */,
+				EEC3F3D917195D5800457687 /* UIView+Image.m */,
+			);
+			name = "UIImage+PDF";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +250,10 @@
 				EEC3F3C11719434F00457687 /* HomeVC.m in Sources */,
 				EEC3F3CB1719476900457687 /* CafeVC.m in Sources */,
 				EEC3F3D01719482900457687 /* BackgroundVC.m in Sources */,
+				EEC3F3DA17195D5900457687 /* NSString+MD5.m in Sources */,
+				EEC3F3DB17195D5900457687 /* PDFView.m in Sources */,
+				EEC3F3DC17195D5900457687 /* UIImage+PDF.m in Sources */,
+				EEC3F3DD17195D5900457687 /* UIView+Image.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
