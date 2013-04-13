@@ -119,6 +119,11 @@
 	self.dialogueManager.currentDialogueContext = @"TEST";
 }
 
+- (IBAction)changeHerEyes:(id)sender
+{
+	self.cafeBackground.image = [UIImage imageNamed:@"coffee-shop.png"];
+}
+
 
 #pragma mark - Lifecycle
 
