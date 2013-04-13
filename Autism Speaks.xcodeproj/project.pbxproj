@@ -38,6 +38,7 @@
 		EEC3F3F017196ABC00457687 /* disgust.png in Resources */ = {isa = PBXBuildFile; fileRef = EEC3F3EF17196ABC00457687 /* disgust.png */; };
 		EEC3F3F417196F6900457687 /* oval.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EEC3F3F317196F6900457687 /* oval.jpg */; };
 		EEC3F3F6171970BE00457687 /* dude.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EEC3F3F5171970BE00457687 /* dude.jpg */; };
+		EEC3F3F91719DA3900457687 /* DialogueManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC3F3F81719DA3800457687 /* DialogueManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +87,8 @@
 		EEC3F3EF17196ABC00457687 /* disgust.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = disgust.png; sourceTree = "<group>"; };
 		EEC3F3F317196F6900457687 /* oval.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oval.jpg; sourceTree = "<group>"; };
 		EEC3F3F5171970BE00457687 /* dude.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dude.jpg; sourceTree = "<group>"; };
+		EEC3F3F71719DA3700457687 /* DialogueManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DialogueManager.h; sourceTree = "<group>"; };
+		EEC3F3F81719DA3800457687 /* DialogueManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DialogueManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +154,8 @@
 				EEC3F3EA1719695100457687 /* CharacterVC.h */,
 				EEC3F3EB1719695200457687 /* CharacterVC.m */,
 				EEC3F3EC1719695200457687 /* CharacterVC.xib */,
+				EEC3F3F71719DA3700457687 /* DialogueManager.h */,
+				EEC3F3F81719DA3800457687 /* DialogueManager.m */,
 				EEC3F3DE17195D6300457687 /* UIImage+PDF */,
 				EEC3F3A21719416D00457687 /* Supporting Files */,
 				EEC3F3E21719623900457687 /* Utilities.h */,
@@ -298,6 +303,7 @@
 				EEC3F3DD17195D5900457687 /* UIView+Image.m in Sources */,
 				EEC3F3E41719623900457687 /* Utilities.m in Sources */,
 				EEC3F3ED1719695300457687 /* CharacterVC.m in Sources */,
+				EEC3F3F91719DA3900457687 /* DialogueManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

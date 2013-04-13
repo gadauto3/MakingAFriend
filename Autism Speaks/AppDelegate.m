@@ -10,6 +10,8 @@
 
 #import "ViewController.h"
 
+#import "DialogueManager.h"
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -19,6 +21,17 @@
 	self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
 	self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
+	
+	
+	
+	// TEST DIALOGUE
+	DialogueManager *dialogueManager = [[DialogueManager alloc] init];
+	NSLog(@"ALL: %@", [dialogueManager allDialogueForBoy]);
+	NSLog(@"RANDOM: %@", [dialogueManager randomOptionsForBoy]);
+	NSLog(@"SELECTED: %@", [dialogueManager selectedDialogueByBoy]);
+	
+	
+	
     return YES;
 }
 
