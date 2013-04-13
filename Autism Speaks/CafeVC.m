@@ -12,6 +12,7 @@
 #import "ArrayTableViewPopoverVC.h"
 
 #import "DialogueManager.h"
+#import "DialogueVC.h"
 
 @interface CafeVC () <ArrayTableViewPopoverListener>
 
@@ -20,6 +21,8 @@
 
 @property (nonatomic, strong) ArrayTableViewPopoverVC *dialogue;
 @property (nonatomic, strong) DialogueManager *dialogueManager;
+
+@property (nonatomic, strong) UIPopoverController *herThoughtPopover;
 
 @end
 
@@ -62,6 +65,11 @@
 	if (friendshipPoints) {
 		[self doFriendshipPointsAnimationForNumPoints:friendshipPoints.intValue];
 	}
+	
+	NSString *herThought = [chatResult objectForKey:KEY_HER_THOUGHT];
+	if (herThought) {
+		[self showHerThought:herThought];
+	}
 }
 
 - (void)doFriendshipPointsAnimationForNumPoints:(int)numPoints
@@ -72,12 +80,25 @@
 	
 	self.pointsLabel.text = [NSString stringWithFormat:@"+%d", numPoints];
 	
-	[UIView animateWithDuration:1.2 animations:^{
-		self.pointsView.transform = CGAffineTransformMakeTranslation(0, -100);
+	[UIView animateWithDuration:1.5 animations:^{
+		self.pointsView.transform = CGAffineTransformMakeTranslation(0, -200);
 		self.pointsView.alpha = 0.0;
 	} completion:^(BOOL finished) {
 		self.pointsView.transform = CGAffineTransformIdentity;
 	}];
+}
+
+- (void)showHerThought:(NSString *)herThought
+{
+	DialogueVC *dialogueVC = [[DialogueVC alloc] init];
+	self.herThoughtPopover = [[UIPopoverController alloc] initWithContentViewController:dialogueVC];
+	[self.herThoughtPopover setPopoverContentSize:dialogueVC.view.frame.size];
+    
+    [self.herThoughtPopover presentPopoverFromRect:self.girlBackground.frame
+											inView:self.view
+						  permittedArrowDirections:UIPopoverArrowDirectionDown
+										  animated:YES];
+	[dialogueVC setDialogue:herThought];
 }
 
 

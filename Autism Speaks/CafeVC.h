@@ -14,4 +14,7 @@
 @property (nonatomic, weak) IBOutlet UIView *pointsView;
 @property (nonatomic, weak) IBOutlet UILabel *pointsLabel;
 
+@property (nonatomic, weak) IBOutlet UIView *herThoughtsView;
+@property (nonatomic, weak) IBOutlet UILabel *herThoughtsLabel;
+
 @end

@@ -21,6 +21,8 @@
 		EE174523171A006F00813F5E /* neutral.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE17451C171A006F00813F5E /* neutral.jpg */; };
 		EE174524171A006F00813F5E /* surprise.png in Resources */ = {isa = PBXBuildFile; fileRef = EE17451D171A006F00813F5E /* surprise.png */; };
 		EE174525171A006F00813F5E /* test-oval.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE17451E171A006F00813F5E /* test-oval.jpg */; };
+		EE174529171A0AE700813F5E /* DialogueVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EE174527171A0AE700813F5E /* DialogueVC.m */; };
+		EE17452A171A0AE700813F5E /* DialogueVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE174528171A0AE700813F5E /* DialogueVC.xib */; };
 		EEC3F39C1719416D00457687 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC3F39B1719416D00457687 /* UIKit.framework */; };
 		EEC3F39E1719416D00457687 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC3F39D1719416D00457687 /* Foundation.framework */; };
 		EEC3F3A01719416D00457687 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC3F39F1719416D00457687 /* CoreGraphics.framework */; };
@@ -72,6 +74,9 @@
 		EE17451C171A006F00813F5E /* neutral.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = neutral.jpg; sourceTree = "<group>"; };
 		EE17451D171A006F00813F5E /* surprise.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = surprise.png; sourceTree = "<group>"; };
 		EE17451E171A006F00813F5E /* test-oval.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "test-oval.jpg"; sourceTree = "<group>"; };
+		EE174526171A0AE700813F5E /* DialogueVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DialogueVC.h; sourceTree = "<group>"; };
+		EE174527171A0AE700813F5E /* DialogueVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DialogueVC.m; sourceTree = "<group>"; };
+		EE174528171A0AE700813F5E /* DialogueVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DialogueVC.xib; sourceTree = "<group>"; };
 		EEC3F3981719416D00457687 /* Autism Speaks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Autism Speaks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEC3F39B1719416D00457687 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EEC3F39D1719416D00457687 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -219,6 +224,9 @@
 				EEC3F3F81719DA3800457687 /* DialogueManager.m */,
 				EEC3F3FA1719E1D500457687 /* ArrayTableViewPopoverVC.h */,
 				EEC3F3FB1719E1D600457687 /* ArrayTableViewPopoverVC.m */,
+				EE174526171A0AE700813F5E /* DialogueVC.h */,
+				EE174527171A0AE700813F5E /* DialogueVC.m */,
+				EE174528171A0AE700813F5E /* DialogueVC.xib */,
 				EEC3F3DE17195D6300457687 /* UIImage+PDF */,
 				EEC3F3A21719416D00457687 /* Supporting Files */,
 				EEC3F3E21719623900457687 /* Utilities.h */,
@@ -359,6 +367,7 @@
 				EE174523171A006F00813F5E /* neutral.jpg in Resources */,
 				EE174524171A006F00813F5E /* surprise.png in Resources */,
 				EE174525171A006F00813F5E /* test-oval.jpg in Resources */,
+				EE17452A171A0AE700813F5E /* DialogueVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,6 +393,7 @@
 				EEC3F3F91719DA3900457687 /* DialogueManager.m in Sources */,
 				EEC3F3FC1719E1D700457687 /* ArrayTableViewPopoverVC.m in Sources */,
 				CEC2497A1719DDD3007C30AF /* MutableArrray.m in Sources */,
+				EE174529171A0AE700813F5E /* DialogueVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
