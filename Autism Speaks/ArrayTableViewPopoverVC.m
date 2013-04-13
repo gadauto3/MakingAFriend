@@ -84,6 +84,8 @@
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
 	
 	[self.privatePopover dismissPopoverAnimated:YES];
+	
+	[self.listener arrayElementSelected:selectedElement];
 }
 
 
