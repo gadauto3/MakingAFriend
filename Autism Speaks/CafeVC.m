@@ -8,6 +8,8 @@
 
 #import "CafeVC.h"
 
+#import <QuartzCore/QuartzCore.h>
+
 #import "CharacterVC.h"
 #import "ArrayTableViewPopoverVC.h"
 
@@ -72,7 +74,7 @@
 	
 	NSString *herThought = [chatResult objectForKey:KEY_HER_THOUGHT];
 	if (herThought) {
-		[self performSelector:@selector(showHerThought:) withObject:herThought afterDelay:TIME_FOR_POINTS];
+		[self performSelector:@selector(showHerThought:) withObject:herThought afterDelay:TIME_FOR_POINTS * 1.2];
 	}
 	
 	NSString *herSound = [chatResult objectForKey:KEY_HER_SOUND];
@@ -139,7 +141,7 @@
 	self.dialogueManager.currentDialogueContext = CONTEXT_JUST_STARTED;
 	
 	self.pointsView.hidden = YES;
-	
+	self.pointsView.layer.cornerRadius = 50.0;
 }
 
 - (void)didReceiveMemoryWarning
