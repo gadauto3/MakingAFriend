@@ -21,7 +21,7 @@
 {
 	BackgroundVC *gameVC = [[BackgroundVC alloc] init];
 	[self presentViewController:gameVC animated:YES completion:^{
-		[Utilities playSoundNamed:SFX_OH_YEAH];
+//		[Utilities playSoundNamed:SFX_OH_YEAH];
 	}];
 }
 
