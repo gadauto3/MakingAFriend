@@ -58,7 +58,7 @@
 	
 	[self setupCharacters];
 	
-	[self performSelector:@selector(setupDialogue) withObject:nil afterDelay:2];
+//	[self performSelector:@selector(setupDialogue) withObject:nil afterDelay:2];
 }
 
 - (void)didReceiveMemoryWarning

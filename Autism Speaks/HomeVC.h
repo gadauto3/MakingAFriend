@@ -8,4 +8,6 @@
 
 @interface HomeVC : UIViewController
 
+@property (nonatomic, strong) IBOutlet UIImageView *boyBackground;
+
 @end

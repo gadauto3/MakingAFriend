@@ -12,7 +12,7 @@
 
 @interface HomeVC ()
 
-@property (nonatomic, strong) CharacterVC *boyVC;
+@property (nonatomic, strong) CharacterVC *boy;
 
 @end
 
@@ -22,8 +22,11 @@
 
 - (void)setupCharacter
 {
-	self.boyVC = [[CharacterVC alloc] init];
-	[self.view addSubview:self.boyVC.view];
+	self.boy = [[CharacterVC alloc] init];
+	[self.view addSubview:self.boy.view];
+	
+	[self.boyBackground addSubview:self.boy.view];
+	self.boy.view.frame = CGRectMake(0, 0, self.boyBackground.frame.size.width, self.boyBackground.frame.size.height);
 }
 
 
