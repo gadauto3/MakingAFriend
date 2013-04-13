@@ -27,69 +27,7 @@
 }
 
 - (NSArray *)allDialogueForBoy
-<<<<<<< HEAD
-{    
-=======
 {
-	self.allDialogue = [NSMutableDictionary dictionary];
-    [self.allDialogue setValue:@{
-     //Just Started		Hi	1	neutral.jpg		Hi
-         KEY_NUM_FRIENDSHIP_POINTS: @1,
-                   KEY_HER_THOUGHT: @"",
-                     KEY_HER_SOUND: @"",
-                      KEY_HER_FACE: @"neutral.jpg",
-                      KEY_HER_CHAT: @"Hi" }
-                            forKey:@ "Hi"];
-//    Just Started		I love you	0	disgust.png	But you don't know me!
-    [self.allDialogue setValue:@{
-         KEY_NUM_FRIENDSHIP_POINTS: @0,
-                   KEY_HER_THOUGHT: @"But you don't know me!",
-                     KEY_HER_SOUND: @"",
-                      KEY_HER_FACE: @"disgust.png",
-                      KEY_HER_CHAT: @"" }
-                            forKey:@ "I love you"];
-    //Just Started		You're awesome	0	bored.png	How would you know?
-    [self.allDialogue setValue:@{
-         KEY_NUM_FRIENDSHIP_POINTS: @0,
-                   KEY_HER_THOUGHT: @"How would you know?",
-                     KEY_HER_SOUND: @"",
-                      KEY_HER_FACE: @"bored.png",
-                      KEY_HER_CHAT: @"" }
-                            forKey:@ "You're awesome"];
-    
-    //Just Started		Don't you just love this café?	1	interested.png		It's okay
-    [self.allDialogue setValue:@{
-         KEY_NUM_FRIENDSHIP_POINTS: @1,
-                   KEY_HER_THOUGHT: @"",
-                     KEY_HER_SOUND: @"",
-                      KEY_HER_FACE: @"interested.png",
-                      KEY_HER_CHAT: @"It's okay" }
-                            forKey:@ "Don't you just love this café?"];
-    
-//Just Started		Hi, I live with my mom	0	surprise.png	That's a weird thing to say!
-    [self.allDialogue setValue:@{
-         KEY_NUM_FRIENDSHIP_POINTS: @0,
-                   KEY_HER_THOUGHT: @"That's a weird thing to say!",
-                     KEY_HER_SOUND: @"",
-                      KEY_HER_FACE: @"surprise.png",
-                      KEY_HER_CHAT: @"" }
-                            forKey:@ "Hi, I live with my mom"];
-    [self.allDialogue setValue:@{
-         KEY_NUM_FRIENDSHIP_POINTS: @5,
-                   KEY_HER_THOUGHT: @"Hmmm, interesting....5",
-                     KEY_HER_SOUND: @"Hmmm, interesting....5",
-                      KEY_HER_FACE: @"surprise.png",
-                      KEY_HER_CHAT: @"Hmmm, interesting....5" }
-                            forKey:@ "5"];
-    [self.allDialogue setValue:@{
-         KEY_NUM_FRIENDSHIP_POINTS: @5,
-                   KEY_HER_THOUGHT: @"Hmmm, interesting....6",
-                     KEY_HER_SOUND: @"Hmmm, interesting....6",
-                      KEY_HER_FACE: @"smile.png",
-                      KEY_HER_CHAT: @"Hmmm, interesting....6" }
-                            forKey:@ "6"];
-    
->>>>>>> add dictrionary
     return self.allDialogue.allKeys;
 }
 
@@ -137,41 +75,40 @@
 
 - (void)setupDialogue
 {
-	
 	self.allDialogue = [NSMutableDictionary dictionary];
     [self.allDialogue setValue:@{
+     //Just Started		Hi	1	neutral.jpg		Hi
 	 KEY_NUM_FRIENDSHIP_POINTS: @1,
-			   KEY_HER_THOUGHT: @"Hmmm, interesting....",
-				 KEY_HER_SOUND: @"OhYeah",
 				  KEY_HER_FACE: @"neutral.jpg",
-				  KEY_HER_CHAT: @"Hmmm, interesting...." }
+				  KEY_HER_THOUGHT: @"Hi" }
 						forKey:@ "Hi"];
+	//    Just Started		I love you	0	disgust.png	But you don't know me!
     [self.allDialogue setValue:@{
-	 KEY_NUM_FRIENDSHIP_POINTS: @5,
-				 KEY_HER_SOUND: @"Hmmm, interesting....1",
-				  KEY_HER_FACE: @"neutral.jpg",
-				  KEY_HER_CHAT: @"Hmmm, interesting....1" }
+	 KEY_NUM_FRIENDSHIP_POINTS: @0,
+			   KEY_HER_THOUGHT: @"But you don't know me!",
+				  KEY_HER_FACE: @"disgust.png" }
 						forKey:@ "I love you"];
-	[self.allDialogue setValue:@{
-	 KEY_NUM_FRIENDSHIP_POINTS: @5,
-			   KEY_HER_THOUGHT: @"Hmmm, interesting....6",
-				 KEY_HER_SOUND: @"Hmmm, interesting....6",
-				  KEY_HER_FACE: @"smile.png",
-				  KEY_HER_CHAT: @"Hmmm, interesting....6" }
+    //Just Started		You're awesome	0	bored.png	How would you know?
+    [self.allDialogue setValue:@{
+	 KEY_NUM_FRIENDSHIP_POINTS: @0,
+			   KEY_HER_THOUGHT: @"How would you know?",
+				  KEY_HER_FACE: @"bored.png" }
 						forKey:@ "You're awesome"];
+    
+    //Just Started		Don't you just love this café?	1	interested.png		It's okay
     [self.allDialogue setValue:@{
-	 KEY_NUM_FRIENDSHIP_POINTS: @5,
-			   KEY_HER_THOUGHT: @"Hmmm, interesting....2",
-				 KEY_HER_SOUND: @"Hmmm, interesting....2",
-				  KEY_HER_FACE: @"test-oval.jpg",
-				  KEY_HER_CHAT: @"Hmmm, interesting....2" }
+	 KEY_NUM_FRIENDSHIP_POINTS: @1,
+				  KEY_HER_FACE: @"interested.png",
+				  KEY_HER_THOUGHT: @"It's okay" }
 						forKey:@ "Don't you just love this café?"];
+    
+	//Just Started		Hi, I live with my mom	0	surprise.png	That's a weird thing to say!
     [self.allDialogue setValue:@{
-	 KEY_NUM_FRIENDSHIP_POINTS: @5,
-				 KEY_HER_SOUND: @"Hmmm, interesting....3",
-				  KEY_HER_FACE: @"bored.png",
-				  KEY_HER_CHAT: @"Hmmm, interesting....3" }
+	 KEY_NUM_FRIENDSHIP_POINTS: @0,
+			   KEY_HER_THOUGHT: @"That's a weird thing to say!",
+				  KEY_HER_FACE: @"surprise.png" }
 						forKey:@ "Hi, I live with my mom"];
+	
 }
 
 - (NSArray *)dialogueOptionsForContext:(NSString *)context
