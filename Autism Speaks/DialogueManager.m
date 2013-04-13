@@ -69,7 +69,7 @@
         for (int count = 0; count <= numToGet; count++) {
             
         // pass that array index into array for output
-        [self.dialogueOptions insertObject:[shuffled objectAtIndex:count] atIndex:count];
+//        [self.dialogueOptions insertObject:[shuffled objectAtIndex:count] atIndex:count];
         }
     }
     
