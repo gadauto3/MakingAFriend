@@ -68,11 +68,10 @@
 		EEDFEAF3171A2E3200A513DC /* 5 many_small_birds_chirping.aiff in Resources */ = {isa = PBXBuildFile; fileRef = EEDFEAD7171A2E3200A513DC /* 5 many_small_birds_chirping.aiff */; };
 		EEDFEAF4171A2E3200A513DC /* coffe_shop_low _volume.aiff in Resources */ = {isa = PBXBuildFile; fileRef = EEDFEAD8171A2E3200A513DC /* coffe_shop_low _volume.aiff */; };
 		EEDFEAF5171A2E3200A513DC /* coffee_shop_ atmosphere_2.aiff in Resources */ = {isa = PBXBuildFile; fileRef = EEDFEAD9171A2E3200A513DC /* coffee_shop_ atmosphere_2.aiff */; };
-		EEDFEAF6171A2E3200A513DC /* cricket _chirping.aiff in Resources */ = {isa = PBXBuildFile; fileRef = EEDFEADA171A2E3200A513DC /* cricket _chirping.aiff */; };
+		EEDFEAF6171A2E3200A513DC /* cricket_chirping.aiff in Resources */ = {isa = PBXBuildFile; fileRef = EEDFEADA171A2E3200A513DC /* cricket_chirping.aiff */; };
 		EEDFEAF7171A2E3200A513DC /* many_nightCrickets.aiff in Resources */ = {isa = PBXBuildFile; fileRef = EEDFEADB171A2E3200A513DC /* many_nightCrickets.aiff */; };
 		EEDFEAF8171A2E3200A513DC /* woman_laughing.aiff in Resources */ = {isa = PBXBuildFile; fileRef = EEDFEADD171A2E3200A513DC /* woman_laughing.aiff */; };
 		EEDFEAF9171A2E3200A513DC /* woman_laughing_short.aiff in Resources */ = {isa = PBXBuildFile; fileRef = EEDFEADE171A2E3200A513DC /* woman_laughing_short.aiff */; };
-		EEDFEAFA171A2E3200A513DC /* woman_sighing .aiff in Resources */ = {isa = PBXBuildFile; fileRef = EEDFEADF171A2E3200A513DC /* woman_sighing .aiff */; };
 		EEDFEAFB171A2E3200A513DC /* woman_sniffling.aiff in Resources */ = {isa = PBXBuildFile; fileRef = EEDFEAE0171A2E3200A513DC /* woman_sniffling.aiff */; };
 		EEDFEAFC171A2E3200A513DC /* gulp.aiff in Resources */ = {isa = PBXBuildFile; fileRef = EEDFEAE2171A2E3200A513DC /* gulp.aiff */; };
 		EEDFEAFD171A2E3200A513DC /* heart_beating.aiff in Resources */ = {isa = PBXBuildFile; fileRef = EEDFEAE3171A2E3200A513DC /* heart_beating.aiff */; };
@@ -85,6 +84,7 @@
 		EEDFEB04171A2E3200A513DC /* rooster_crowing.aiff in Resources */ = {isa = PBXBuildFile; fileRef = EEDFEAEA171A2E3200A513DC /* rooster_crowing.aiff */; };
 		EEDFEB05171A2E3200A513DC /* rooster_crowing_01.aiff in Resources */ = {isa = PBXBuildFile; fileRef = EEDFEAEB171A2E3200A513DC /* rooster_crowing_01.aiff */; };
 		EEDFEB07171A2FCE00A513DC /* bathroom.png in Resources */ = {isa = PBXBuildFile; fileRef = EEDFEB06171A2FCE00A513DC /* bathroom.png */; };
+		EEDFEB09171B30B600A513DC /* woman_gasping.aiff in Resources */ = {isa = PBXBuildFile; fileRef = EEDFEB08171B30B600A513DC /* woman_gasping.aiff */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -167,11 +167,10 @@
 		EEDFEAD7171A2E3200A513DC /* 5 many_small_birds_chirping.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "5 many_small_birds_chirping.aiff"; sourceTree = "<group>"; };
 		EEDFEAD8171A2E3200A513DC /* coffe_shop_low _volume.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "coffe_shop_low _volume.aiff"; sourceTree = "<group>"; };
 		EEDFEAD9171A2E3200A513DC /* coffee_shop_ atmosphere_2.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "coffee_shop_ atmosphere_2.aiff"; sourceTree = "<group>"; };
-		EEDFEADA171A2E3200A513DC /* cricket _chirping.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "cricket _chirping.aiff"; sourceTree = "<group>"; };
+		EEDFEADA171A2E3200A513DC /* cricket_chirping.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = cricket_chirping.aiff; sourceTree = "<group>"; };
 		EEDFEADB171A2E3200A513DC /* many_nightCrickets.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = many_nightCrickets.aiff; sourceTree = "<group>"; };
 		EEDFEADD171A2E3200A513DC /* woman_laughing.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = woman_laughing.aiff; sourceTree = "<group>"; };
 		EEDFEADE171A2E3200A513DC /* woman_laughing_short.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = woman_laughing_short.aiff; sourceTree = "<group>"; };
-		EEDFEADF171A2E3200A513DC /* woman_sighing .aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "woman_sighing .aiff"; sourceTree = "<group>"; };
 		EEDFEAE0171A2E3200A513DC /* woman_sniffling.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = woman_sniffling.aiff; sourceTree = "<group>"; };
 		EEDFEAE2171A2E3200A513DC /* gulp.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = gulp.aiff; sourceTree = "<group>"; };
 		EEDFEAE3171A2E3200A513DC /* heart_beating.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = heart_beating.aiff; sourceTree = "<group>"; };
@@ -184,6 +183,7 @@
 		EEDFEAEA171A2E3200A513DC /* rooster_crowing.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = rooster_crowing.aiff; sourceTree = "<group>"; };
 		EEDFEAEB171A2E3200A513DC /* rooster_crowing_01.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = rooster_crowing_01.aiff; sourceTree = "<group>"; };
 		EEDFEB06171A2FCE00A513DC /* bathroom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bathroom.png; sourceTree = "<group>"; };
+		EEDFEB08171B30B600A513DC /* woman_gasping.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = woman_gasping.aiff; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -373,7 +373,7 @@
 				EEDFEAD7171A2E3200A513DC /* 5 many_small_birds_chirping.aiff */,
 				EEDFEAD8171A2E3200A513DC /* coffe_shop_low _volume.aiff */,
 				EEDFEAD9171A2E3200A513DC /* coffee_shop_ atmosphere_2.aiff */,
-				EEDFEADA171A2E3200A513DC /* cricket _chirping.aiff */,
+				EEDFEADA171A2E3200A513DC /* cricket_chirping.aiff */,
 				EEDFEADB171A2E3200A513DC /* many_nightCrickets.aiff */,
 			);
 			path = "Cafe Audio";
@@ -384,8 +384,8 @@
 			children = (
 				EEDFEADD171A2E3200A513DC /* woman_laughing.aiff */,
 				EEDFEADE171A2E3200A513DC /* woman_laughing_short.aiff */,
-				EEDFEADF171A2E3200A513DC /* woman_sighing .aiff */,
 				EEDFEAE0171A2E3200A513DC /* woman_sniffling.aiff */,
+				EEDFEB08171B30B600A513DC /* woman_gasping.aiff */,
 			);
 			path = "Girl Audio";
 			sourceTree = "<group>";
@@ -499,11 +499,10 @@
 				EEDFEAF3171A2E3200A513DC /* 5 many_small_birds_chirping.aiff in Resources */,
 				EEDFEAF4171A2E3200A513DC /* coffe_shop_low _volume.aiff in Resources */,
 				EEDFEAF5171A2E3200A513DC /* coffee_shop_ atmosphere_2.aiff in Resources */,
-				EEDFEAF6171A2E3200A513DC /* cricket _chirping.aiff in Resources */,
+				EEDFEAF6171A2E3200A513DC /* cricket_chirping.aiff in Resources */,
 				EEDFEAF7171A2E3200A513DC /* many_nightCrickets.aiff in Resources */,
 				EEDFEAF8171A2E3200A513DC /* woman_laughing.aiff in Resources */,
 				EEDFEAF9171A2E3200A513DC /* woman_laughing_short.aiff in Resources */,
-				EEDFEAFA171A2E3200A513DC /* woman_sighing .aiff in Resources */,
 				EEDFEAFB171A2E3200A513DC /* woman_sniffling.aiff in Resources */,
 				EEDFEAFC171A2E3200A513DC /* gulp.aiff in Resources */,
 				EEDFEAFD171A2E3200A513DC /* heart_beating.aiff in Resources */,
@@ -516,6 +515,7 @@
 				EEDFEB04171A2E3200A513DC /* rooster_crowing.aiff in Resources */,
 				EEDFEB05171A2E3200A513DC /* rooster_crowing_01.aiff in Resources */,
 				EEDFEB07171A2FCE00A513DC /* bathroom.png in Resources */,
+				EEDFEB09171B30B600A513DC /* woman_gasping.aiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

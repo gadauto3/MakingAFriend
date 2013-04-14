@@ -71,7 +71,7 @@
 	 KEY_NUM_FRIENDSHIP_POINTS: @0,
 			   KEY_HER_THOUGHT: @"That's a weird thing to say!",
 				  KEY_HER_FACE: @"surprise.png",
-                 KEY_HER_SOUND: @"woman_sighing",
+                 KEY_HER_SOUND: @"woman_gasping",
           KEY_CONTEXT: CONTEXT_JUST_STARTED}
 						forKey:@ "Hi, I live with my mom"];
     
@@ -109,7 +109,7 @@
 	 KEY_NUM_FRIENDSHIP_POINTS: @0,
 			   KEY_HER_THOUGHT: @"That was rude",
 				  KEY_HER_FACE: @"surprise.png",
-                 KEY_HER_SOUND: @"woman_gasp",
+                 KEY_HER_SOUND: @"woman_gasping",
           KEY_CONTEXT: CONTEXT_SEATED}
 						forKey:@ "(Sit Down)"];
     
