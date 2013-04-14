@@ -77,6 +77,11 @@
 		[self performSelector:@selector(showHerThought:) withObject:herThought afterDelay:TIME_FOR_POINTS * 1.2];
 	}
 	
+	NSString *herChat = [chatResult objectForKey:KEY_HER_CHAT];
+	if (herChat) {
+		[self performSelector:@selector(showHerChat:) withObject:herChat afterDelay:TIME_FOR_POINTS * 1.2];
+	}
+	
 	NSString *herSound = [chatResult objectForKey:KEY_HER_SOUND];
 	if (herSound) {
 		[Utilities playSoundNamed:herSound];
@@ -106,16 +111,29 @@
 
 - (void)showHerThought:(NSString *)herThought
 {
+	[self showHerMonologue:herThought inDirection:UIPopoverArrowDirectionDown];
+}
+
+- (void)showHerChat:(NSString *)herChat
+{
+	[self showHerMonologue:herChat inDirection:UIPopoverArrowDirectionRight];
+}
+
+
+- (void)showHerMonologue:(NSString *)herThought inDirection:(UIPopoverArrowDirection)direction
+{
 	DialogueVC *dialogueVC = [[DialogueVC alloc] init];
 	self.herThoughtPopover = [[UIPopoverController alloc] initWithContentViewController:dialogueVC];
 	[self.herThoughtPopover setPopoverContentSize:dialogueVC.view.frame.size];
     
     [self.herThoughtPopover presentPopoverFromRect:self.girlBackground.frame
 											inView:self.view
-						  permittedArrowDirections:UIPopoverArrowDirectionDown
+						  permittedArrowDirections:direction
 										  animated:YES];
 	[dialogueVC setDialogue:herThought];
 }
+
+
 
 #pragma mark - Changing contexts
 
