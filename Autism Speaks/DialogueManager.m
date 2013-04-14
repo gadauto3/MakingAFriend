@@ -113,7 +113,7 @@
 	 KEY_NUM_FRIENDSHIP_POINTS: @0,
 			   KEY_HER_THOUGHT: @"That's a weird thing to say!",
 				  KEY_HER_FACE: @"surprise.png",
-                 KEY_HER_SOUND: @"woman_sighing.aiff",
+                 KEY_HER_SOUND: @"woman_sighing",
           CONTEXT_JUST_STARTED: @"Just Started"}
 						forKey:@ "Hi, I live with my mom"];
     
