@@ -22,7 +22,7 @@
 - (NSDictionary *)resultsForHisChat:(NSString *)hisChat
 {
 	NSDictionary *result = [self.allDialogue objectForKey:hisChat];
-	NSParameterAssert(result);
+//	NSParameterAssert(result);
 	return result;
 }
 
@@ -200,7 +200,7 @@
      KEY_NUM_FRIENDSHIP_POINTS: @0,
                KEY_HER_THOUGHT: @"Grrr…",
                   KEY_HER_FACE: @"disgust.png",
-                    CONCLUSION: @"CONCLUSION"}
+                    KEY_CONTEXT: @"CONCLUSION"}
                         forKey:@"Don’t bother, everybody dies."];
     
     [self.allDialogue setValue:@{
@@ -208,7 +208,7 @@
                   KEY_HER_FACE: @"smile.png",
                  KEY_HER_SOUND: @" woman_laughing_short.aiff",
                   KEY_HER_CHAT: @"Funny",
-                    CONCLUSION: @"CONCLUSION"}
+                    KEY_CONTEXT: @"CONCLUSION"}
                         forKey:@"What do you think a vegan zombie eats?"];
     
     
@@ -216,14 +216,14 @@
      KEY_NUM_FRIENDSHIP_POINTS: @0,
                KEY_HER_THOUGHT: @"Okay, but I didn’t ask.",
                   KEY_HER_FACE: @"smile.png",
-                    CONCLUSION: @"CONCLUSION"}
+                    KEY_CONTEXT: @"CONCLUSION"}
                         forKey:@"I’m lactose intolerant, I can’t drink milk."];
     
     [self.allDialogue setValue:@{
      KEY_NUM_FRIENDSHIP_POINTS: @1,
                   KEY_HER_FACE: @"interested.png",
                   KEY_HER_CHAT: @" Thanks.  I just got it",
-                    CONCLUSION: @"CONCLUSION"}
+                    KEY_CONTEXT: @"CONCLUSION"}
                         forKey:@"That’s a really nice scarf"];
     
 //Conclusion
@@ -279,7 +279,7 @@
 	 ] forKey:CONTEXT_SEATED];
 	
     [self.contextToDialogueDictionary setValue:@[
-	 @"Don’t bother, everybody dies.", @"I'm lactose intolerant, I can't drink milk.", @"What do you think a vegan zombie eats?",@"What do you think a vegan zombie eats?",@"That's a really nice scarf"
+	 @"Don’t bother, everybody dies.", @"I'm lactose intolerant, I can't drink milk.", @"What do you think a vegan zombie eats?",@"That’s a really nice scarf"
 	 ] forKey:CONTEXT_SEATED_FOLLOW_UP];
     
 	[self.contextToDialogueDictionary setValue:@[
