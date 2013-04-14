@@ -31,48 +31,6 @@
     return self.allDialogue.allKeys;
 }
 
-- (NSDictionary *)randomOptionsForBoy:(int)numToGet
-{
-    self.dialogueOptions = [NSMutableArray array];
-    
-    
-    
-    
-    
-   // NSMutableArray *shuffled = [NSMutableArray array];
-
-   
-   // NSUInteger arcount = [_allDialogue count]; // gives a random array
-    //return count;
-    //if (arcount > 0) {
-        //[shuffled addObject:[self.dialogueOptions objectAtIndex:0]];
-        
-        //NSUInteger j;
-       // for (NSUInteger i = 1; i < arcount; ++i) {
-       //     j = arc4random() % i;
-            //[shuffled addObject:[self.dialogueOptions objectAtIndex:j]];
-      //      [shuffled replaceObjectAtIndex:j
-            //                    withObject:[self.dialogueOptions objectAtIndex:i]];
-       // }
-        
-        
-        
-        //      return shuffled; // still autoreleased
-    //}
-    
-    // numbtoget specifys the number to be in final array, must generate
-    //if (numToGet != 0){
-    //    for (int count = 0; count <= numToGet; count++) {
-            
-        // pass that array index into array for output
-    return self.dialogueOptions;
-}
-
-- (NSArray *)selectedDialogueByBoy
-{
-	return nil;
-}
-
 - (void)setupDialogue
 {
 	self.allDialogue = [NSMutableDictionary dictionary];
@@ -206,7 +164,7 @@
     [self.allDialogue setValue:@{
      KEY_NUM_FRIENDSHIP_POINTS: @2,
                   KEY_HER_FACE: @"smile.png",
-                 KEY_HER_SOUND: @" woman_laughing_short.aiff",
+                 KEY_HER_SOUND: @"woman_laughing_short",
                   KEY_HER_CHAT: @"Funny",
                     KEY_CONTEXT: @"CONCLUSION"}
                         forKey:@"What do you think a vegan zombie eats?"];

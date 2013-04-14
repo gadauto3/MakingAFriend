@@ -31,8 +31,6 @@
 @property (nonatomic, strong) NSString *currentDialogueContext;
 
 - (NSArray *)allDialogueForBoy;
-- (NSArray *)randomOptionsForBoy:(int)numToGet;
-- (NSArray *)selectedDialogueByBoy;
 
 - (NSDictionary *)resultsForHisChat:(NSString *)hisChat;
 - (NSArray *)dialogueOptionsForContext:(NSString *)context;
