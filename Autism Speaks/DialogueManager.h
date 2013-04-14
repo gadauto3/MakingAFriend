@@ -19,8 +19,8 @@
 
 #define CONTEXT_JUST_STARTED		@"Just Started"
 #define CONTEXT_TRYING_TO_SIT		@"Trying to sit"
-#define CONTEXT_SEATED		@"Seated"
-#define CONTEXT_SEATED_FOLLOW_UP		@"Seated Follow Up"
+#define CONTEXT_SEATED				@"Seated"
+#define CONTEXT_SEATED_FOLLOW_UP	@"Seated Follow Up"
 
 
 

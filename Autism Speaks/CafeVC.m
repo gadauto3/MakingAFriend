@@ -89,7 +89,7 @@
 		[Utilities playSoundNamed:herSound];
 	}
 	
-	NSString *nextContext = [chatResult objectForKey:KEY_HER_CHAT];
+	NSString *nextContext = [chatResult objectForKey:KEY_CONTEXT];
 	if (nextContext) {
 		self.dialogueManager.currentDialogueContext = nextContext;
 	}
