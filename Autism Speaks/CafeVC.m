@@ -88,6 +88,11 @@
 	if (herSound) {
 		[Utilities playSoundNamed:herSound];
 	}
+	
+	NSString *nextContext = [chatResult objectForKey:KEY_HER_CHAT];
+	if (nextContext) {
+		self.dialogueManager.currentDialogueContext = nextContext;
+	}
 }
 
 - (void)doFriendshipPointsAnimationForNumPoints:(int)numPoints
