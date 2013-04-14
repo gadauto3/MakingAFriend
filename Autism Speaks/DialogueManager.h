@@ -22,6 +22,8 @@
 #define CONTEXT_SEATED				@"Seated"
 #define CONTEXT_SEATED_FOLLOW_UP	@"Seated Follow Up"
 
+#define CONCLUSION		@"CONCLUSION"
+
 
 
 @interface DialogueManager : NSObject
