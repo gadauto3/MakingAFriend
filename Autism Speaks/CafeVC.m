@@ -48,6 +48,8 @@
 	UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(setupDialogue)];
 	[self.boyBackground addGestureRecognizer:tap];
 	self.boyBackground.userInteractionEnabled = YES;
+	
+	[self.girl setCharacterImage:@"neutral.jpg"];
 }
 
 - (void)setupDialogue

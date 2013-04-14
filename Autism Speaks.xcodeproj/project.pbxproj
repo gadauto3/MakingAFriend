@@ -84,6 +84,7 @@
 		EEDFEB03171A2E3200A513DC /* Poor_reception_radio.aiff in Resources */ = {isa = PBXBuildFile; fileRef = EEDFEAE9171A2E3200A513DC /* Poor_reception_radio.aiff */; };
 		EEDFEB04171A2E3200A513DC /* rooster_crowing.aiff in Resources */ = {isa = PBXBuildFile; fileRef = EEDFEAEA171A2E3200A513DC /* rooster_crowing.aiff */; };
 		EEDFEB05171A2E3200A513DC /* rooster_crowing_01.aiff in Resources */ = {isa = PBXBuildFile; fileRef = EEDFEAEB171A2E3200A513DC /* rooster_crowing_01.aiff */; };
+		EEDFEB07171A2FCE00A513DC /* bathroom.png in Resources */ = {isa = PBXBuildFile; fileRef = EEDFEB06171A2FCE00A513DC /* bathroom.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -182,6 +183,7 @@
 		EEDFEAE9171A2E3200A513DC /* Poor_reception_radio.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Poor_reception_radio.aiff; sourceTree = "<group>"; };
 		EEDFEAEA171A2E3200A513DC /* rooster_crowing.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = rooster_crowing.aiff; sourceTree = "<group>"; };
 		EEDFEAEB171A2E3200A513DC /* rooster_crowing_01.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = rooster_crowing_01.aiff; sourceTree = "<group>"; };
+		EEDFEB06171A2FCE00A513DC /* bathroom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bathroom.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -313,6 +315,7 @@
 				EE174517171A006F00813F5E /* Her_Sprites */,
 				EE1745061719F2A700813F5E /* Him_Sprites */,
 				EEC3F3F317196F6900457687 /* oval.jpg */,
+				EEDFEB06171A2FCE00A513DC /* bathroom.png */,
 				EE17452B171A0F1600813F5E /* coffee-shop.png */,
 				EE17452D171A255500813F5E /* coffee-shop-closed.png */,
 				EEC3F3F5171970BE00457687 /* dude.jpg */,
@@ -512,6 +515,7 @@
 				EEDFEB03171A2E3200A513DC /* Poor_reception_radio.aiff in Resources */,
 				EEDFEB04171A2E3200A513DC /* rooster_crowing.aiff in Resources */,
 				EEDFEB05171A2E3200A513DC /* rooster_crowing_01.aiff in Resources */,
+				EEDFEB07171A2FCE00A513DC /* bathroom.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
