@@ -155,6 +155,45 @@
           CONTEXT_SEATED: @"Seated"}
 						forKey:@ "(Sit Down)"];
     
+
+    
+    // Seated
+    //
+    [self.allDialogue setValue:@{
+	 KEY_NUM_FRIENDSHIP_POINTS: @1,
+			   KEY_HER_THOUGHT: @"I like it too!",
+				  KEY_HER_FACE: @"interested.png",
+     CONTEXT_SEATED: @"Seated Follow Up"}
+						forKey:@ "Oh, My Zombie and Me? Great book!"];
+    [self.allDialogue setValue:@{
+	 KEY_NUM_FRIENDSHIP_POINTS: @2,
+			   KEY_HER_THOUGHT: @"It's nice, he's interested in what I think",
+				  KEY_HER_FACE: @"smile.png",
+                CONTEXT_SEATED: @"Seated Follow Up"}
+						forKey:@ "Oh, My Zombie and Me!  How do you like it?"];
+    [self.allDialogue setValue:@{
+	 KEY_NUM_FRIENDSHIP_POINTS: @0,
+			   KEY_HER_THOUGHT: @"I don't get the joke",
+				  KEY_HER_FACE: @"bored.png",
+                CONTEXT_SEATED: @"Seated Follow Up"}
+						forKey:@ "World War Z, what happened to X and Y"];
+    [self.allDialogue setValue:@{
+	 KEY_NUM_FRIENDSHIP_POINTS: @0,
+			   KEY_HER_THOUGHT: @"That's a creepy thing to say",
+				  KEY_HER_FACE: @"disgust.png",
+                CONTEXT_SEATED: @"Seated Follow Up"}
+						forKey:@ "Yours brains look delicious, Rawrrr!"];
+    [self.allDialogue setValue:@{
+	 KEY_NUM_FRIENDSHIP_POINTS: @0,
+			   KEY_HER_THOUGHT: @"...",
+				  KEY_HER_FACE: @"surprise.png",
+                 KEY_HER_SOUND: @"cricket_chirping",
+                CONTEXT_SEATED: @"Seated Follow Up"}
+						forKey:@ "Do you like goats?"];
+    
+    
+    
+    // Seated Follow Up
     [self.allDialogue setValue:@{
 	 KEY_NUM_FRIENDSHIP_POINTS: @0,
 			   KEY_HER_THOUGHT: @"That's a weird thing to say!",
@@ -162,6 +201,24 @@
                  KEY_HER_SOUND: @"woman_sighing.aiff",
                   KEY_HER_CHAT: @""}
 						forKey:@ "x11"];
+    [self.allDialogue setValue:@{
+	 KEY_NUM_FRIENDSHIP_POINTS: @0,
+			   KEY_HER_THOUGHT: @"That's a weird thing to say!",
+				  KEY_HER_FACE: @"surprise.png",
+                 KEY_HER_SOUND: @"woman_sighing.aiff",
+                  KEY_HER_CHAT: @""}
+						forKey:@ "x11"];
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 	
 }
 
@@ -180,6 +237,9 @@
     [self.contextToDialogueDictionary setValue:@[
 	 @"Is this seat taken?", @"May I join you?", @"I annex this seat in the name of King Me", @"(Sit Down)"
 	 ] forKey:CONTEXT_TRYING_TO_SIT];
+    [self.contextToDialogueDictionary setValue:@[
+	 @"Oh, My Zombie and Me? Great book!", @"Oh, My Zombie and Me!  How do you like it?", @"World War Z, what happened to X and Y", @"Yours brains look delicious, Rawrrr!",@"Do you like goats?"
+	 ] forKey:CONTEXT_SEATED];
 }
 
 - (id)init
