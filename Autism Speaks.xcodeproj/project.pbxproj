@@ -58,6 +58,32 @@
 		EEC3F3F6171970BE00457687 /* dude.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EEC3F3F5171970BE00457687 /* dude.jpg */; };
 		EEC3F3F91719DA3900457687 /* DialogueManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC3F3F81719DA3800457687 /* DialogueManager.m */; };
 		EEC3F3FC1719E1D700457687 /* ArrayTableViewPopoverVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC3F3FB1719E1D600457687 /* ArrayTableViewPopoverVC.m */; };
+		EEDFEAEC171A2E3200A513DC /* brushing_teeth_2.aiff in Resources */ = {isa = PBXBuildFile; fileRef = EEDFEACF171A2E3200A513DC /* brushing_teeth_2.aiff */; };
+		EEDFEAED171A2E3200A513DC /* calming_music.aiff in Resources */ = {isa = PBXBuildFile; fileRef = EEDFEAD0171A2E3200A513DC /* calming_music.aiff */; };
+		EEDFEAEE171A2E3200A513DC /* calming_music_low_volume.aiff in Resources */ = {isa = PBXBuildFile; fileRef = EEDFEAD1171A2E3200A513DC /* calming_music_low_volume.aiff */; };
+		EEDFEAEF171A2E3200A513DC /* shower.aiff in Resources */ = {isa = PBXBuildFile; fileRef = EEDFEAD2171A2E3200A513DC /* shower.aiff */; };
+		EEDFEAF0171A2E3200A513DC /* sink_filling_with water.aiff in Resources */ = {isa = PBXBuildFile; fileRef = EEDFEAD3171A2E3200A513DC /* sink_filling_with water.aiff */; };
+		EEDFEAF1171A2E3200A513DC /* 01 Animal, Cricket, One Cricket Chirping.m4a in Resources */ = {isa = PBXBuildFile; fileRef = EEDFEAD5171A2E3200A513DC /* 01 Animal, Cricket, One Cricket Chirping.m4a */; };
+		EEDFEAF2171A2E3200A513DC /* 49 Coffe Shop Atmosphere Small.m4a in Resources */ = {isa = PBXBuildFile; fileRef = EEDFEAD6171A2E3200A513DC /* 49 Coffe Shop Atmosphere Small.m4a */; };
+		EEDFEAF3171A2E3200A513DC /* 5 many_small_birds_chirping.aiff in Resources */ = {isa = PBXBuildFile; fileRef = EEDFEAD7171A2E3200A513DC /* 5 many_small_birds_chirping.aiff */; };
+		EEDFEAF4171A2E3200A513DC /* coffe_shop_low _volume.aiff in Resources */ = {isa = PBXBuildFile; fileRef = EEDFEAD8171A2E3200A513DC /* coffe_shop_low _volume.aiff */; };
+		EEDFEAF5171A2E3200A513DC /* coffee_shop_ atmosphere_2.aiff in Resources */ = {isa = PBXBuildFile; fileRef = EEDFEAD9171A2E3200A513DC /* coffee_shop_ atmosphere_2.aiff */; };
+		EEDFEAF6171A2E3200A513DC /* cricket _chirping.aiff in Resources */ = {isa = PBXBuildFile; fileRef = EEDFEADA171A2E3200A513DC /* cricket _chirping.aiff */; };
+		EEDFEAF7171A2E3200A513DC /* many_nightCrickets.aiff in Resources */ = {isa = PBXBuildFile; fileRef = EEDFEADB171A2E3200A513DC /* many_nightCrickets.aiff */; };
+		EEDFEAF8171A2E3200A513DC /* woman_laughing.aiff in Resources */ = {isa = PBXBuildFile; fileRef = EEDFEADD171A2E3200A513DC /* woman_laughing.aiff */; };
+		EEDFEAF9171A2E3200A513DC /* woman_laughing_short.aiff in Resources */ = {isa = PBXBuildFile; fileRef = EEDFEADE171A2E3200A513DC /* woman_laughing_short.aiff */; };
+		EEDFEAFA171A2E3200A513DC /* woman_sighing .aiff in Resources */ = {isa = PBXBuildFile; fileRef = EEDFEADF171A2E3200A513DC /* woman_sighing .aiff */; };
+		EEDFEAFB171A2E3200A513DC /* woman_sniffling.aiff in Resources */ = {isa = PBXBuildFile; fileRef = EEDFEAE0171A2E3200A513DC /* woman_sniffling.aiff */; };
+		EEDFEAFC171A2E3200A513DC /* gulp.aiff in Resources */ = {isa = PBXBuildFile; fileRef = EEDFEAE2171A2E3200A513DC /* gulp.aiff */; };
+		EEDFEAFD171A2E3200A513DC /* heart_beating.aiff in Resources */ = {isa = PBXBuildFile; fileRef = EEDFEAE3171A2E3200A513DC /* heart_beating.aiff */; };
+		EEDFEAFE171A2E3200A513DC /* InOutBreath.aiff in Resources */ = {isa = PBXBuildFile; fileRef = EEDFEAE4171A2E3200A513DC /* InOutBreath.aiff */; };
+		EEDFEAFF171A2E3200A513DC /* man_breathing_slowly_heavily.aiff in Resources */ = {isa = PBXBuildFile; fileRef = EEDFEAE5171A2E3200A513DC /* man_breathing_slowly_heavily.aiff */; };
+		EEDFEB00171A2E3200A513DC /* man_sighing.aiff in Resources */ = {isa = PBXBuildFile; fileRef = EEDFEAE6171A2E3200A513DC /* man_sighing.aiff */; };
+		EEDFEB01171A2E3200A513DC /* man_sighing_in _frustration.aiff in Resources */ = {isa = PBXBuildFile; fileRef = EEDFEAE7171A2E3200A513DC /* man_sighing_in _frustration.aiff */; };
+		EEDFEB02171A2E3200A513DC /* person_running_on_floor 3.aiff in Resources */ = {isa = PBXBuildFile; fileRef = EEDFEAE8171A2E3200A513DC /* person_running_on_floor 3.aiff */; };
+		EEDFEB03171A2E3200A513DC /* Poor_reception_radio.aiff in Resources */ = {isa = PBXBuildFile; fileRef = EEDFEAE9171A2E3200A513DC /* Poor_reception_radio.aiff */; };
+		EEDFEB04171A2E3200A513DC /* rooster_crowing.aiff in Resources */ = {isa = PBXBuildFile; fileRef = EEDFEAEA171A2E3200A513DC /* rooster_crowing.aiff */; };
+		EEDFEB05171A2E3200A513DC /* rooster_crowing_01.aiff in Resources */ = {isa = PBXBuildFile; fileRef = EEDFEAEB171A2E3200A513DC /* rooster_crowing_01.aiff */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -130,6 +156,32 @@
 		EEC3F3F81719DA3800457687 /* DialogueManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DialogueManager.m; sourceTree = "<group>"; };
 		EEC3F3FA1719E1D500457687 /* ArrayTableViewPopoverVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayTableViewPopoverVC.h; sourceTree = "<group>"; };
 		EEC3F3FB1719E1D600457687 /* ArrayTableViewPopoverVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayTableViewPopoverVC.m; sourceTree = "<group>"; };
+		EEDFEACF171A2E3200A513DC /* brushing_teeth_2.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = brushing_teeth_2.aiff; sourceTree = "<group>"; };
+		EEDFEAD0171A2E3200A513DC /* calming_music.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = calming_music.aiff; sourceTree = "<group>"; };
+		EEDFEAD1171A2E3200A513DC /* calming_music_low_volume.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = calming_music_low_volume.aiff; sourceTree = "<group>"; };
+		EEDFEAD2171A2E3200A513DC /* shower.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = shower.aiff; sourceTree = "<group>"; };
+		EEDFEAD3171A2E3200A513DC /* sink_filling_with water.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "sink_filling_with water.aiff"; sourceTree = "<group>"; };
+		EEDFEAD5171A2E3200A513DC /* 01 Animal, Cricket, One Cricket Chirping.m4a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "01 Animal, Cricket, One Cricket Chirping.m4a"; sourceTree = "<group>"; };
+		EEDFEAD6171A2E3200A513DC /* 49 Coffe Shop Atmosphere Small.m4a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "49 Coffe Shop Atmosphere Small.m4a"; sourceTree = "<group>"; };
+		EEDFEAD7171A2E3200A513DC /* 5 many_small_birds_chirping.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "5 many_small_birds_chirping.aiff"; sourceTree = "<group>"; };
+		EEDFEAD8171A2E3200A513DC /* coffe_shop_low _volume.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "coffe_shop_low _volume.aiff"; sourceTree = "<group>"; };
+		EEDFEAD9171A2E3200A513DC /* coffee_shop_ atmosphere_2.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "coffee_shop_ atmosphere_2.aiff"; sourceTree = "<group>"; };
+		EEDFEADA171A2E3200A513DC /* cricket _chirping.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "cricket _chirping.aiff"; sourceTree = "<group>"; };
+		EEDFEADB171A2E3200A513DC /* many_nightCrickets.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = many_nightCrickets.aiff; sourceTree = "<group>"; };
+		EEDFEADD171A2E3200A513DC /* woman_laughing.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = woman_laughing.aiff; sourceTree = "<group>"; };
+		EEDFEADE171A2E3200A513DC /* woman_laughing_short.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = woman_laughing_short.aiff; sourceTree = "<group>"; };
+		EEDFEADF171A2E3200A513DC /* woman_sighing .aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "woman_sighing .aiff"; sourceTree = "<group>"; };
+		EEDFEAE0171A2E3200A513DC /* woman_sniffling.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = woman_sniffling.aiff; sourceTree = "<group>"; };
+		EEDFEAE2171A2E3200A513DC /* gulp.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = gulp.aiff; sourceTree = "<group>"; };
+		EEDFEAE3171A2E3200A513DC /* heart_beating.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = heart_beating.aiff; sourceTree = "<group>"; };
+		EEDFEAE4171A2E3200A513DC /* InOutBreath.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = InOutBreath.aiff; sourceTree = "<group>"; };
+		EEDFEAE5171A2E3200A513DC /* man_breathing_slowly_heavily.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = man_breathing_slowly_heavily.aiff; sourceTree = "<group>"; };
+		EEDFEAE6171A2E3200A513DC /* man_sighing.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = man_sighing.aiff; sourceTree = "<group>"; };
+		EEDFEAE7171A2E3200A513DC /* man_sighing_in _frustration.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "man_sighing_in _frustration.aiff"; sourceTree = "<group>"; };
+		EEDFEAE8171A2E3200A513DC /* person_running_on_floor 3.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "person_running_on_floor 3.aiff"; sourceTree = "<group>"; };
+		EEDFEAE9171A2E3200A513DC /* Poor_reception_radio.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Poor_reception_radio.aiff; sourceTree = "<group>"; };
+		EEDFEAEA171A2E3200A513DC /* rooster_crowing.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = rooster_crowing.aiff; sourceTree = "<group>"; };
+		EEDFEAEB171A2E3200A513DC /* rooster_crowing_01.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = rooster_crowing_01.aiff; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -289,9 +341,67 @@
 		EEC3F3E71719637F00457687 /* sounds */ = {
 			isa = PBXGroup;
 			children = (
+				EEDFEACE171A2E3200A513DC /* Bathroom Audio */,
+				EEDFEAD4171A2E3200A513DC /* Cafe Audio */,
+				EEDFEADC171A2E3200A513DC /* Girl Audio */,
+				EEDFEAE1171A2E3200A513DC /* Guy Audio */,
 				EEC3F3E81719639600457687 /* OhYeah.aiff */,
 			);
 			name = sounds;
+			sourceTree = "<group>";
+		};
+		EEDFEACE171A2E3200A513DC /* Bathroom Audio */ = {
+			isa = PBXGroup;
+			children = (
+				EEDFEACF171A2E3200A513DC /* brushing_teeth_2.aiff */,
+				EEDFEAD0171A2E3200A513DC /* calming_music.aiff */,
+				EEDFEAD1171A2E3200A513DC /* calming_music_low_volume.aiff */,
+				EEDFEAD2171A2E3200A513DC /* shower.aiff */,
+				EEDFEAD3171A2E3200A513DC /* sink_filling_with water.aiff */,
+			);
+			path = "Bathroom Audio";
+			sourceTree = "<group>";
+		};
+		EEDFEAD4171A2E3200A513DC /* Cafe Audio */ = {
+			isa = PBXGroup;
+			children = (
+				EEDFEAD5171A2E3200A513DC /* 01 Animal, Cricket, One Cricket Chirping.m4a */,
+				EEDFEAD6171A2E3200A513DC /* 49 Coffe Shop Atmosphere Small.m4a */,
+				EEDFEAD7171A2E3200A513DC /* 5 many_small_birds_chirping.aiff */,
+				EEDFEAD8171A2E3200A513DC /* coffe_shop_low _volume.aiff */,
+				EEDFEAD9171A2E3200A513DC /* coffee_shop_ atmosphere_2.aiff */,
+				EEDFEADA171A2E3200A513DC /* cricket _chirping.aiff */,
+				EEDFEADB171A2E3200A513DC /* many_nightCrickets.aiff */,
+			);
+			path = "Cafe Audio";
+			sourceTree = "<group>";
+		};
+		EEDFEADC171A2E3200A513DC /* Girl Audio */ = {
+			isa = PBXGroup;
+			children = (
+				EEDFEADD171A2E3200A513DC /* woman_laughing.aiff */,
+				EEDFEADE171A2E3200A513DC /* woman_laughing_short.aiff */,
+				EEDFEADF171A2E3200A513DC /* woman_sighing .aiff */,
+				EEDFEAE0171A2E3200A513DC /* woman_sniffling.aiff */,
+			);
+			path = "Girl Audio";
+			sourceTree = "<group>";
+		};
+		EEDFEAE1171A2E3200A513DC /* Guy Audio */ = {
+			isa = PBXGroup;
+			children = (
+				EEDFEAE2171A2E3200A513DC /* gulp.aiff */,
+				EEDFEAE3171A2E3200A513DC /* heart_beating.aiff */,
+				EEDFEAE4171A2E3200A513DC /* InOutBreath.aiff */,
+				EEDFEAE5171A2E3200A513DC /* man_breathing_slowly_heavily.aiff */,
+				EEDFEAE6171A2E3200A513DC /* man_sighing.aiff */,
+				EEDFEAE7171A2E3200A513DC /* man_sighing_in _frustration.aiff */,
+				EEDFEAE8171A2E3200A513DC /* person_running_on_floor 3.aiff */,
+				EEDFEAE9171A2E3200A513DC /* Poor_reception_radio.aiff */,
+				EEDFEAEA171A2E3200A513DC /* rooster_crowing.aiff */,
+				EEDFEAEB171A2E3200A513DC /* rooster_crowing_01.aiff */,
+			);
+			path = "Guy Audio";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -376,6 +486,32 @@
 				EE17452A171A0AE700813F5E /* DialogueVC.xib in Resources */,
 				EE17452C171A0F1600813F5E /* coffee-shop.png in Resources */,
 				EE17452E171A255500813F5E /* coffee-shop-closed.png in Resources */,
+				EEDFEAEC171A2E3200A513DC /* brushing_teeth_2.aiff in Resources */,
+				EEDFEAED171A2E3200A513DC /* calming_music.aiff in Resources */,
+				EEDFEAEE171A2E3200A513DC /* calming_music_low_volume.aiff in Resources */,
+				EEDFEAEF171A2E3200A513DC /* shower.aiff in Resources */,
+				EEDFEAF0171A2E3200A513DC /* sink_filling_with water.aiff in Resources */,
+				EEDFEAF1171A2E3200A513DC /* 01 Animal, Cricket, One Cricket Chirping.m4a in Resources */,
+				EEDFEAF2171A2E3200A513DC /* 49 Coffe Shop Atmosphere Small.m4a in Resources */,
+				EEDFEAF3171A2E3200A513DC /* 5 many_small_birds_chirping.aiff in Resources */,
+				EEDFEAF4171A2E3200A513DC /* coffe_shop_low _volume.aiff in Resources */,
+				EEDFEAF5171A2E3200A513DC /* coffee_shop_ atmosphere_2.aiff in Resources */,
+				EEDFEAF6171A2E3200A513DC /* cricket _chirping.aiff in Resources */,
+				EEDFEAF7171A2E3200A513DC /* many_nightCrickets.aiff in Resources */,
+				EEDFEAF8171A2E3200A513DC /* woman_laughing.aiff in Resources */,
+				EEDFEAF9171A2E3200A513DC /* woman_laughing_short.aiff in Resources */,
+				EEDFEAFA171A2E3200A513DC /* woman_sighing .aiff in Resources */,
+				EEDFEAFB171A2E3200A513DC /* woman_sniffling.aiff in Resources */,
+				EEDFEAFC171A2E3200A513DC /* gulp.aiff in Resources */,
+				EEDFEAFD171A2E3200A513DC /* heart_beating.aiff in Resources */,
+				EEDFEAFE171A2E3200A513DC /* InOutBreath.aiff in Resources */,
+				EEDFEAFF171A2E3200A513DC /* man_breathing_slowly_heavily.aiff in Resources */,
+				EEDFEB00171A2E3200A513DC /* man_sighing.aiff in Resources */,
+				EEDFEB01171A2E3200A513DC /* man_sighing_in _frustration.aiff in Resources */,
+				EEDFEB02171A2E3200A513DC /* person_running_on_floor 3.aiff in Resources */,
+				EEDFEB03171A2E3200A513DC /* Poor_reception_radio.aiff in Resources */,
+				EEDFEB04171A2E3200A513DC /* rooster_crowing.aiff in Resources */,
+				EEDFEB05171A2E3200A513DC /* rooster_crowing_01.aiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
