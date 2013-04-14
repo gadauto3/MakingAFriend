@@ -209,13 +209,32 @@
                   KEY_HER_CHAT: @""}
 						forKey:@ "x11"];
     
+//Conclusion
     
+    [self.allDialogue setValue:@{
+     KEY_NUM_FRIENDSHIP_POINTS: @1,
+                  KEY_HER_FACE: @"interested.png",
+                  KEY_HER_CHAT: @"You too! I hope to see you again."}
+                        forKey:@"You’re awesome!"];
     
+    [self.allDialogue setValue:@{
+     KEY_NUM_FRIENDSHIP_POINTS: @2,
+                  KEY_HER_FACE: @"interested.png",
+                  KEY_HER_CHAT: @"Yes, let’s do this again."}
+                        forKey:@" Will you be here tomorrow?"];
     
-    
-    
-    
-    
+    [self.allDialogue setValue:@{
+     KEY_NUM_FRIENDSHIP_POINTS: @0,
+               KEY_HER_THOUGHT: @"Strangers shouldn’t ask that.",
+                  KEY_HER_FACE: @"interested.png"}
+                        forKey:@ "Where do you live?"];
+     
+     [self.allDialogue setValue:@{
+      KEY_NUM_FRIENDSHIP_POINTS: @1,
+                   KEY_HER_FACE: @"interested.png",
+                   KEY_HER_CHAT: @"Let’s go!"}
+                         forKey:@ "Hey, we should check out the movie!"];
+    //after
     
     
     
@@ -246,11 +265,14 @@
     
     ///Don’t bother, everybody dies.
 
-        
-        
     [self.contextToDialogueDictionary setValue:@[
 	 @"Oh, My Zombie and Me? Great book!", @"Oh, My Zombie and Me!  How do you like it?", @"World War Z, what happened to X and Y", @"Yours brains look delicious, Rawrrr!",@"Do you like goats?"
 	 ] forKey:CONTEXT_SEATED];
+    
+    [self.contextToDialogueDictionary setValue:@[
+	 @"You're awesome", @"Will you be here tomorrow?", @"Where do you live?", @"Hey, we should check out the movie"
+	 ] forKey:CONCLUSION];
+    
 }
 
 - (id)init
