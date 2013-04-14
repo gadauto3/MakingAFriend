@@ -58,6 +58,7 @@
 	[self.scrollView addSubview:self.cafeVC.view];
 	
 	self.scrollView.contentSize = CGSizeMake(self.homeVC.view.frame.size.width + self.cafeVC.view.frame.size.width, MAX(self.homeVC.view.frame.size.height, self.cafeVC.view.frame.size.height));
+	self.scrollView.contentOffset = CGPointMake(self.cafeVC.view.frame.origin.x, 0);
 }
 
 - (void)didReceiveMemoryWarning
