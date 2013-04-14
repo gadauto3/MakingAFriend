@@ -28,16 +28,27 @@
 
 @property (nonatomic, strong) UIPopoverController *herThoughtPopover;
 
+@property (nonatomic) int introStep;
+
 @end
 
 @implementation CafeVC
 
 #define TIME_FOR_POINTS		1.4
 
-
 - (IBAction)doIntro:(id)sender
 {
+	if (self.introStep == 0) {
+		[self.girl setCharacterImage:@"disgust.png"];
+	} else if (self.introStep == 1) {
+		[self.boy setCharacterImage:@"fright-dirty.png"];
+	} else if (self.introStep == 2) {
+		self.introButton.hidden = YES;
+		[self.boy setCharacterImage:@"normal-clean.png"];
+		[self.girl setCharacterImage:@"neutral.jpg"];
+	}
 	
+	self.introStep++;
 }
 
 - (void)setupCharacters
