@@ -68,9 +68,8 @@
     NSString *value = [self.privateArray objectAtIndex:indexPath.row];
 	
     cell.textLabel.text = value;
-	if (arc4random() % 2 == 0) cell.backgroundColor = [UIColor greenColor];
-	
-    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+	cell.textLabel.adjustsFontSizeToFitWidth = YES;
+	cell.textLabel.minimumScaleFactor = 0.5;
 	
     return cell;
 }
