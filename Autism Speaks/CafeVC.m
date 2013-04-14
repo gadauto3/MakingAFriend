@@ -35,6 +35,11 @@
 #define TIME_FOR_POINTS		1.4
 
 
+- (IBAction)doIntro:(id)sender
+{
+	
+}
+
 - (void)setupCharacters
 {
 	self.boy = [[CharacterVC alloc] init];
@@ -50,6 +55,7 @@
 	self.boyBackground.userInteractionEnabled = YES;
 	
 	[self.girl setCharacterImage:@"neutral.jpg"];
+	[self.boy setCharacterImage:@"normal-dirty.png"];
 }
 
 - (void)setupDialogue

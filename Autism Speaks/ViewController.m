@@ -20,7 +20,7 @@
 - (IBAction)jumpToGame:(id)sender
 {
 	BackgroundVC *gameVC = [[BackgroundVC alloc] init];
-	[self presentViewController:gameVC animated:YES completion:^{
+	[self presentViewController:gameVC animated:NO completion:^{
 //		[Utilities playSoundNamed:SFX_OH_YEAH];
 	}];
 }

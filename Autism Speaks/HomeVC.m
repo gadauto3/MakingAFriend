@@ -34,6 +34,8 @@
 	UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(showPictureOptions)];
 	[self.boyBackground addGestureRecognizer:tap];
 	self.boyBackground.userInteractionEnabled = YES;
+	
+	[self.boy setCharacterImage:@"fright-dirty.png"];
 }
 
 - (void)showPictureOptions
