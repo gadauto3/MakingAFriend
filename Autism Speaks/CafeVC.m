@@ -71,6 +71,7 @@
 
 - (void)setupDialogue
 {
+	[self.herThoughtPopover dismissPopoverAnimated:YES];
 	NSArray *allHisDialogues = [self.dialogueManager dialogueOptionsForContext:self.dialogueManager.currentDialogueContext];
 	self.dialogue = [ArrayTableViewPopoverVC makePopoverWithArray:allHisDialogues fromView:self.boyBackground permittedArrowDirections:UIPopoverArrowDirectionLeft];
 	self.dialogue.listener = self;

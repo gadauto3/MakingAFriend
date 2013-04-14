@@ -224,7 +224,7 @@
                   KEY_HER_FACE: @"interested.png",
                   KEY_HER_CHAT: @" Thanks.  I just got it",
                     CONCLUSION: @"CONCLUSION"}
-                        forKey:@"That’s a nice scarf"];
+                        forKey:@"That’s a really nice scarf"];
     
 //Conclusion
     
