@@ -194,20 +194,37 @@
     
     
     // Seated Follow Up
+
+    
     [self.allDialogue setValue:@{
-	 KEY_NUM_FRIENDSHIP_POINTS: @0,
-			   KEY_HER_THOUGHT: @"That's a weird thing to say!",
-				  KEY_HER_FACE: @"surprise.png",
-                 KEY_HER_SOUND: @"woman_sighing.aiff",
-                  KEY_HER_CHAT: @""}
-						forKey:@ "x11"];
+     KEY_NUM_FRIENDSHIP_POINTS: @0,
+               KEY_HER_THOUGHT: @"Grrr…",
+                  KEY_HER_FACE: @"disgust.png",
+                    CONCLUSION: @"CONCLUSION"}
+                        forKey:@"Don’t bother, everybody dies."];
+    
     [self.allDialogue setValue:@{
-	 KEY_NUM_FRIENDSHIP_POINTS: @0,
-			   KEY_HER_THOUGHT: @"That's a weird thing to say!",
-				  KEY_HER_FACE: @"surprise.png",
-                 KEY_HER_SOUND: @"woman_sighing.aiff",
-                  KEY_HER_CHAT: @""}
-						forKey:@ "x11"];
+     KEY_NUM_FRIENDSHIP_POINTS: @2,
+                  KEY_HER_FACE: @"smile.png",
+                 KEY_HER_SOUND: @" woman_laughing_short.aiff",
+                  KEY_HER_CHAT: @"Funny",
+                    CONCLUSION: @"CONCLUSION"}
+                        forKey:@"What do you think a vegan zombie eats?"];
+    
+    
+    [self.allDialogue setValue:@{
+     KEY_NUM_FRIENDSHIP_POINTS: @0,
+               KEY_HER_THOUGHT: @"Okay, but I didn’t ask.",
+                  KEY_HER_FACE: @"smile.png",
+                    CONCLUSION: @"CONCLUSION"}
+                        forKey:@"I’m lactose intolerant, I can’t drink milk"];
+    
+    [self.allDialogue setValue:@{
+     KEY_NUM_FRIENDSHIP_POINTS: @1,
+                  KEY_HER_FACE: @"interested.png",
+                  KEY_HER_CHAT: @" Thanks.  I just got it",
+                    CONCLUSION: @"CONCLUSION"}
+                        forKey:@"That’s a nice scarf"];
     
 //Conclusion
     
@@ -259,10 +276,26 @@
     [self.contextToDialogueDictionary setValue:@[
 	 @"Oh, My Zombie and Me? Great book!", @"Oh, My Zombie and Me!  How do you like it?", @"World War Z, what happened to X and Y", @"Yours brains look delicious, Rawrrr!",@"Do you like goats?"
 	 ] forKey:CONTEXT_SEATED];
+<<<<<<< HEAD
     [self.contextToDialogueDictionary setValue:@[
 	 @"Don’t bother, everybody dies.", @"You know, you should be drinking lowfat", @"I'm lactose intolerant, I can't drink milk.", @"What do you think a vegan zombie eats?",@"What do you think a vegan zombie eats?",@"That's a really nice scarf"
 	 ] forKey:CONTEXT_SEATED_FOLLOW_UP];
     
+=======
+
+    ///Don’t bother, everybody dies.
+
+    [self.contextToDialogueDictionary setValue:@[
+	 @"Oh, My Zombie and Me? Great book!", @"Oh, My Zombie and Me!  How do you like it?", @"World War Z, what happened to X and Y", @"Yours brains look delicious, Rawrrr!",@"Do you like goats?"
+	 ] forKey:CONTEXT_SEATED];
+    
+    [self.contextToDialogueDictionary setValue:@[
+	 @"Don’t bother, everybody dies.", @"I'm lactose intolerant, I can't drink milk.", @"What do you think a vegan zombie eats?",@"What do you think a vegan zombie eats?",@"That's a really nice scarf"
+	 ] forKey:CONTEXT_SEATED_FOLLOW_UP];
+    
+    
+    
+>>>>>>> FINAL
     [self.contextToDialogueDictionary setValue:@[
 	 @"You're awesome", @"Will you be here tomorrow?", @"Where do you live?", @"Hey, we should check out the movie"
 	 ] forKey:CONCLUSION];
