@@ -14,6 +14,7 @@
 #define KEY_HER_FACE                @"Face"
 //disgust.png	neutral.jpg	test-oval.jpg bored.png	interested.png	surprise.png smile.png
 #define KEY_HER_CHAT                @"Her Chat bubble"
+#define KEY_CONTEXT                 @"next context"
 
 
 #define CONTEXT_JUST_STARTED		@"Just Started"
