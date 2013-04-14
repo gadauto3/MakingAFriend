@@ -262,16 +262,7 @@
     [self.contextToDialogueDictionary setValue:@[
 	 @"Don’t bother, everybody dies.", @"You know, you should be drinking lowfat", @"I'm lactose intolerant, I can't drink milk.", @"What do you think a vegan zombie eats?",@"What do you think a vegan zombie eats?",@"That's a really nice scarf"
 	 ] forKey:CONTEXT_SEATED_FOLLOW_UP];
-<<<<<<< HEAD
     
-    ///Don’t bother, everybody dies.
-
-    [self.contextToDialogueDictionary setValue:@[
-	 @"Oh, My Zombie and Me? Great book!", @"Oh, My Zombie and Me!  How do you like it?", @"World War Z, what happened to X and Y", @"Yours brains look delicious, Rawrrr!",@"Do you like goats?"
-	 ] forKey:CONTEXT_SEATED];
-    
-=======
->>>>>>> MORE
     [self.contextToDialogueDictionary setValue:@[
 	 @"You're awesome", @"Will you be here tomorrow?", @"Where do you live?", @"Hey, we should check out the movie"
 	 ] forKey:CONCLUSION];
