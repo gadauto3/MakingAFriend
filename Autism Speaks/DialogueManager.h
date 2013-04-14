@@ -17,6 +17,7 @@
 
 
 #define CONTEXT_JUST_STARTED		@"Just Started"
+#define CONTEXT_TRYING_TO_SIT		@"Trying to sit"
 
 
 @interface DialogueManager : NSObject

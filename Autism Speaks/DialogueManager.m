@@ -176,13 +176,10 @@
 	
 	[self.contextToDialogueDictionary setValue:@[
 	 @"Hi", @"I love you", @"You're awesome", @"Don't you just love this café?", @"Hi, I live with my mom"
-	 ] forKey:@"Just Started"];
+	 ] forKey:CONTEXT_JUST_STARTED];
     [self.contextToDialogueDictionary setValue:@[
 	 @"Is this seat taken?", @"May I join you?", @"I annex this seat in the name of King Me", @"(Sit Down)"
-	 ] forKey:@"Trying to sit"];
-	[self.contextToDialogueDictionary setValue:@[
-	 @"Hi", @"I love you"
-	 ] forKey:@"TEST"];
+	 ] forKey:CONTEXT_TRYING_TO_SIT];
 }
 
 - (id)init
