@@ -12,10 +12,7 @@ entertaining with an interactive bathroom scene.  Relevant sound effects, realis
 
 MakingAFriend is the first in a series of apps designed to meet the needs of everyone, with three levels of play and multiple language choices.
 
-Contributors: 
-    
-Lance Vikaros
-Jay Zalowitz 
-Rachel Blue 
-Gabriel Adauto
-Lois Jean Brady
+Contributors (so far):
+Lois Jean Brady, Rachel Blue, Lance Vikaros, Gabriel Adauto, Jay Zalowitz 
+
+
